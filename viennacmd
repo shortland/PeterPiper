@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+sudo RNAfold -p -d2 -g --noLP -P dna_mathews2004.par --noconv < vienna_input.txt > vienna_output.out
