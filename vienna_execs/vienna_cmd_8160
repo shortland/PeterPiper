@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+sudo RNAfold -p -d2 -g --noLP -P dna_mathews2004.par --noconv < data/IGHV1-69_05.txt > vienna_out/IGHV1-69_05.txt

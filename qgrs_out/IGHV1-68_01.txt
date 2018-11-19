@@ -1,0 +1,5 @@
+
+ID          T1  T2  T3  T4 TS  GS  SEQ
+--------------------------------------------------------------------------------------------
+1            2  11  23  29  2  17  GGTGCAGCTGGGGCAGTCTGAGGCTGAGG
+2          106 116 123 130  2  19  GGTTGCAACAGGCCCCTGGACAAGGG

@@ -1,0 +1,1692 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 5.0.1 (Release date: Thu Jul 26 17:15:19 2018 -0700)
+
+For further information on how to interpret these results or to get
+a copy of the MEME software please access http://meme-suite.org .
+
+This file may be used as input to the MAST algorithm for searching
+sequence databases for matches to groups of motifs.  MAST is available
+for interactive use and downloading at http://meme-suite.org .
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to discover
+motifs in biopolymers", Proceedings of the Second International
+Conference on Intelligent Systems for Molecular Biology, pp. 28-36,
+AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+PRIMARY SEQUENCES= meme_in/meme_data_52168
+CONTROL SEQUENCES= --none--
+ALPHABET= ACDEFGHIKLMNPQRSTVWY
+Sequence name            Weight Length  Sequence name            Weight Length  
+-------------            ------ ------  -------------            ------ ------  
+sequence0                1.0000    227  sequence1                1.0000    302  
+sequence2                1.0000    292  sequence3                1.0000    293  
+sequence4                1.0000    305  sequence5                1.0000    302  
+sequence6                1.0000    299  sequence7                1.0000    288  
+sequence8                1.0000    302  sequence9                1.0000    292  
+sequence10               1.0000    293  sequence11               1.0000    305  
+sequence12               1.0000    302  sequence13               1.0000    302  
+sequence14               1.0000    296  sequence15               1.0000    290  
+sequence16               1.0000    302  sequence17               1.0000    294  
+sequence18               1.0000    296  sequence19               1.0000    293  
+sequence20               1.0000    296  sequence21               1.0000    293  
+sequence22               1.0000    296  sequence23               1.0000    294  
+sequence24               1.0000    294  sequence25               1.0000    294  
+sequence26               1.0000    282  sequence27               1.0000    299  
+sequence28               1.0000    302  sequence29               1.0000    297  
+sequence30               1.0000    296  sequence31               1.0000    296  
+sequence32               1.0000    299  sequence33               1.0000    302  
+sequence34               1.0000    296  sequence35               1.0000    291  
+sequence36               1.0000    294  sequence37               1.0000    294  
+sequence38               1.0000    298  sequence39               1.0000    302  
+sequence40               1.0000    302  sequence41               1.0000    296  
+sequence42               1.0000    302  sequence43               1.0000    287  
+sequence44               1.0000    296  sequence45               1.0000    294  
+sequence46               1.0000    296  sequence47               1.0000    288  
+sequence48               1.0000    296  sequence49               1.0000    301  
+sequence50               1.0000    227  sequence51               1.0000    284  
+sequence52               1.0000    291  sequence53               1.0000    227  
+sequence54               1.0000    287  sequence55               1.0000    296  
+sequence56               1.0000    296  sequence57               1.0000    296  
+sequence58               1.0000    296  sequence59               1.0000    296  
+sequence60               1.0000    296  sequence61               1.0000    296  
+sequence62               1.0000    296  sequence63               1.0000    221  
+sequence64               1.0000    296  sequence65               1.0000    284  
+sequence66               1.0000    227  sequence67               1.0000    298  
+sequence68               1.0000    301  sequence69               1.0000    289  
+sequence70               1.0000    293  sequence71               1.0000    296  
+sequence72               1.0000    296  sequence73               1.0000    245  
+sequence74               1.0000    296  sequence75               1.0000    296  
+sequence76               1.0000    296  sequence77               1.0000    296  
+sequence78               1.0000    287  sequence79               1.0000    293  
+sequence80               1.0000    298  sequence81               1.0000    293  
+sequence82               1.0000    228  sequence83               1.0000    290  
+sequence84               1.0000    296  sequence85               1.0000    296  
+sequence86               1.0000    298  sequence87               1.0000    296  
+sequence88               1.0000    290  sequence89               1.0000    290  
+sequence90               1.0000    294  sequence91               1.0000    293  
+sequence92               1.0000    296  sequence93               1.0000    293  
+sequence94               1.0000    293  sequence95               1.0000    297  
+sequence96               1.0000    296  sequence97               1.0000    298  
+sequence98               1.0000    296  sequence99               1.0000    293  
+sequence100              1.0000    296  sequence101              1.0000    296  
+sequence102              1.0000    296  sequence103              1.0000    288  
+sequence104              1.0000    296  sequence105              1.0000    287  
+sequence106              1.0000    294  sequence107              1.0000    299  
+sequence108              1.0000    301  sequence109              1.0000    296  
+sequence110              1.0000    287  sequence111              1.0000    287  
+sequence112              1.0000    294  sequence113              1.0000    294  
+sequence114              1.0000    287  sequence115              1.0000    274  
+sequence116              1.0000    301  sequence117              1.0000    299  
+sequence118              1.0000    302  sequence119              1.0000    293  
+sequence120              1.0000    293  sequence121              1.0000    296  
+sequence122              1.0000    292  sequence123              1.0000    287  
+sequence124              1.0000    296  sequence125              1.0000    293  
+sequence126              1.0000    294  sequence127              1.0000    288  
+sequence128              1.0000    296  sequence129              1.0000    296  
+sequence130              1.0000    296  sequence131              1.0000    296  
+sequence132              1.0000    288  sequence133              1.0000    224  
+sequence134              1.0000    296  sequence135              1.0000    284  
+sequence136              1.0000    293  sequence137              1.0000    299  
+sequence138              1.0000    296  sequence139              1.0000    290  
+sequence140              1.0000    287  sequence141              1.0000    294  
+sequence142              1.0000    296  sequence143              1.0000    296  
+sequence144              1.0000    287  sequence145              1.0000    299  
+sequence146              1.0000    302  sequence147              1.0000    299  
+sequence148              1.0000    291  sequence149              1.0000    293  
+sequence150              1.0000    296  sequence151              1.0000    293  
+sequence152              1.0000    291  sequence153              1.0000    296  
+sequence154              1.0000    296  sequence155              1.0000    294  
+sequence156              1.0000    291  sequence157              1.0000    165  
+sequence158              1.0000    294  sequence159              1.0000    299  
+sequence160              1.0000    294  sequence161              1.0000    233  
+sequence162              1.0000    296  sequence163              1.0000    296  
+sequence164              1.0000    300  sequence165              1.0000    296  
+sequence166              1.0000    299  sequence167              1.0000    296  
+sequence168              1.0000    294  sequence169              1.0000    296  
+sequence170              1.0000    296  sequence171              1.0000    221  
+sequence172              1.0000    296  sequence173              1.0000    296  
+sequence174              1.0000    291  sequence175              1.0000    302  
+sequence176              1.0000    260  sequence177              1.0000    296  
+sequence178              1.0000    295  sequence179              1.0000    297  
+sequence180              1.0000    297  sequence181              1.0000    296  
+sequence182              1.0000    294  sequence183              1.0000    293  
+sequence184              1.0000    296  sequence185              1.0000    296  
+sequence186              1.0000    296  sequence187              1.0000    301  
+sequence188              1.0000    296  sequence189              1.0000    299  
+sequence190              1.0000    294  sequence191              1.0000    294  
+sequence192              1.0000    296  sequence193              1.0000    296  
+sequence194              1.0000    293  sequence195              1.0000    296  
+sequence196              1.0000    293  sequence197              1.0000    298  
+sequence198              1.0000    296  sequence199              1.0000    296  
+sequence200              1.0000    296  sequence201              1.0000    299  
+sequence202              1.0000    293  sequence203              1.0000    296  
+sequence204              1.0000    291  sequence205              1.0000    302  
+sequence206              1.0000    293  sequence207              1.0000    296  
+sequence208              1.0000    296  sequence209              1.0000    299  
+sequence210              1.0000    294  sequence211              1.0000    296  
+sequence212              1.0000    288  sequence213              1.0000    296  
+sequence214              1.0000    260  sequence215              1.0000    296  
+sequence216              1.0000    294  sequence217              1.0000    298  
+sequence218              1.0000    294  sequence219              1.0000    294  
+sequence220              1.0000    290  sequence221              1.0000    124  
+sequence222              1.0000    294  sequence223              1.0000    293  
+sequence224              1.0000    291  sequence225              1.0000    210  
+sequence226              1.0000    296  sequence227              1.0000    290  
+sequence228              1.0000    296  sequence229              1.0000    296  
+sequence230              1.0000    294  sequence231              1.0000    296  
+sequence232              1.0000    296  sequence233              1.0000    301  
+sequence234              1.0000    290  sequence235              1.0000    296  
+sequence236              1.0000    196  sequence237              1.0000    296  
+sequence238              1.0000    294  sequence239              1.0000    302  
+sequence240              1.0000    296  sequence241              1.0000    296  
+sequence242              1.0000    296  sequence243              1.0000    296  
+sequence244              1.0000    296  sequence245              1.0000    296  
+sequence246              1.0000    302  sequence247              1.0000    293  
+sequence248              1.0000    294  sequence249              1.0000    233  
+sequence250              1.0000    290  sequence251              1.0000    301  
+sequence252              1.0000    296  sequence253              1.0000    294  
+sequence254              1.0000    288  sequence255              1.0000    294  
+sequence256              1.0000    296  sequence257              1.0000    301  
+sequence258              1.0000    302  sequence259              1.0000    299  
+sequence260              1.0000    296  sequence261              1.0000    293  
+sequence262              1.0000    302  sequence263              1.0000    296  
+sequence264              1.0000    302  sequence265              1.0000    296  
+sequence266              1.0000    296  sequence267              1.0000    296  
+sequence268              1.0000    294  sequence269              1.0000    296  
+sequence270              1.0000    294  sequence271              1.0000    302  
+sequence272              1.0000    296  sequence273              1.0000    291  
+sequence274              1.0000    296  sequence275              1.0000    296  
+sequence276              1.0000    299  sequence277              1.0000    301  
+sequence278              1.0000    296  sequence279              1.0000    296  
+sequence280              1.0000    237  sequence281              1.0000    301  
+sequence282              1.0000    296  sequence283              1.0000    299  
+sequence284              1.0000    302  sequence285              1.0000    296  
+sequence286              1.0000    294  sequence287              1.0000    296  
+sequence288              1.0000    296  sequence289              1.0000    294  
+sequence290              1.0000    294  sequence291              1.0000    296  
+sequence292              1.0000    296  sequence293              1.0000    294  
+sequence294              1.0000    294  sequence295              1.0000    296  
+sequence296              1.0000    296  sequence297              1.0000    302  
+sequence298              1.0000    294  sequence299              1.0000    296  
+sequence300              1.0000    290  sequence301              1.0000    294  
+sequence302              1.0000    296  sequence303              1.0000    300  
+sequence304              1.0000    300  sequence305              1.0000    296  
+sequence306              1.0000    290  sequence307              1.0000    275  
+sequence308              1.0000    299  sequence309              1.0000    296  
+sequence310              1.0000    296  sequence311              1.0000    292  
+sequence312              1.0000    294  sequence313              1.0000    296  
+sequence314              1.0000    296  sequence315              1.0000    296  
+sequence316              1.0000    276  sequence317              1.0000    296  
+sequence318              1.0000    296  sequence319              1.0000    302  
+sequence320              1.0000    296  sequence321              1.0000    293  
+sequence322              1.0000    294  sequence323              1.0000    290  
+sequence324              1.0000    300  
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme meme_in/meme_data_52168 
+
+model:  mod=         zoops    nmotifs=         1    evt=           inf
+objective function:           em=       E-value of product of p-values
+                              starts=   E-value of product of p-values
+width:  minw=            8    maxw=           50
+nsites: minsites=        2    maxsites=      325    wnsites=       0.8
+theta:  spmap=         pam    spfuzz=        120
+em:     prior=       megap    b=          472870    maxiter=        50
+        distance=    1e-05
+trim:   wg=             11    ws=              1    endgaps=       yes
+data:   n=           94574    N=             325
+sample: seed=            0    hsfrac=          0
+        searchsize=  94574    norand=         no    csites=       1000
+Dirichlet mixture priors file: prior30.plib
+Letter frequencies in dataset:
+A 0.237 C 0.256 D 0 E 0 F 0 G 0.298 H 0 I 0 K 0 
+L 0 M 0 N 0.000127 P 0 Q 0 R 0 S 0 T 0.209 V 0 
+W 0 Y 1.06e-05 
+Background letter frequencies (from file dataset with add-one prior applied):
+A 0.237 C 0.256 D 1.06e-05 E 1.06e-05 F 1.06e-05 G 0.298 H 1.06e-05 I 1.06e-05 K 1.06e-05 
+L 1.06e-05 M 1.06e-05 N 0.000137 P 1.06e-05 Q 1.06e-05 R 1.06e-05 S 1.06e-05 T 0.209 V 1.06e-05 
+W 1.06e-05 Y 2.11e-05 
+Background model order: 0
+********************************************************************************
+
+
+********************************************************************************
+MOTIF TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG MEME-1	width =  41  sites = 273  llr = 10868  E-value = 2.4e-2812
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG MEME-1 Description
+--------------------------------------------------------------------------------
+Simplified        A  3:1:::725:::3:::::425::::::::7:2:7::2::a:
+pos.-specific     C  :a88:::338:9:aa::5:8::67:a::::::9:9a::9:2
+probability       D  :::::::::::::::::::::::::::::::::::::::::
+matrix            E  :::::::::::::::::::::::::::::::::::::::::
+                  F  :::::::::::::::::::::::::::::::::::::::::
+                  G  :::2:a:522::::::a:6:2a:::::aa:33::::1:::8
+                  H  :::::::::::::::::::::::::::::::::::::::::
+                  I  :::::::::::::::::::::::::::::::::::::::::
+                  K  :::::::::::::::::::::::::::::::::::::::::
+                  L  :::::::::::::::::::::::::::::::::::::::::
+                  M  :::::::::::::::::::::::::::::::::::::::::
+                  N  :::::::::::::::::::::::::::::::::::::::::
+                  P  :::::::::::::::::::::::::::::::::::::::::
+                  Q  :::::::::::::::::::::::::::::::::::::::::
+                  R  :::::::::::::::::::::::::::::::::::::::::
+                  S  :::::::::::::::::::::::::::::::::::::::::
+                  T  7:1:a:3:::a:7::a:5::3:32a:a::375:3::7a1::
+                  V  :::::::::::::::::::::::::::::::::::::::::
+                  W  :::::::::::::::::::::::::::::::::::::::::
+                  Y  :::::::::::::::::::::::::::::::::::::::::
+
+         bits   16.5                                          
+                14.9                                          
+                13.2                                          
+                11.6                                          
+Relative         9.9                                          
+Entropy          8.3                                          
+(57.4 bits)      6.6                                          
+                 5.0                                          
+                 3.3                                          
+                 1.7 *******  ********* * ********** *********
+                 0.0 -----------------------------------------
+
+Multilevel           TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG
+consensus            A     TCC   A    CAAT TT     TGG T  A    
+sequence                     G           G          A         
+                                                              
+                                                              
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG MEME-1 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name             Start   P-value                              Site                 
+-------------             ----- ---------            -----------------------------------------
+sequence318                  49  1.06e-24 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTATGCT
+sequence317                  49  1.06e-24 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAACAGTGAC
+sequence315                  49  1.06e-24 GCCTGGAGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTCCTGG
+sequence313                  49  1.06e-24 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTATAGC
+sequence298                  49  1.06e-24 GCCTGGAGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTACTGG
+sequence296                  49  1.06e-24 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTATGCT
+sequence293                  49  1.06e-24 GCCTGGAGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTCCTGG
+sequence289                  49  1.06e-24 GCCTGGAGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTCCTGG
+sequence269                  49  1.06e-24 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTATAGC
+sequence268                  49  1.06e-24 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTACTGG
+sequence266                  49  1.06e-24 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTACTGG
+sequence265                  49  1.06e-24 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTATAGC
+sequence244                  49  1.06e-24 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTACTGG
+sequence241                  49  1.06e-24 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTATAGC
+sequence215                  49  1.06e-24 GCCTGGAGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TGACTACTAC
+sequence207                  49  1.06e-24 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTATAGC
+sequence206                  49  1.06e-24 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTACGAC
+sequence200                  49  1.06e-24 GCCTGGAGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TGACTACTAC
+sequence199                  49  1.06e-24 GCCTGGGAGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTATGCT
+sequence198                  49  1.06e-24 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTCTGCT
+sequence186                  49  1.06e-24 GCCTGGGGGA TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAACAGTGAC
+sequence184                  49  1.06e-24 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTATAGC
+sequence183                  49  1.06e-24 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTACGAC
+sequence175                  49  1.06e-24 GCCTGGAGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TGACCACTAC
+sequence173                  49  1.06e-24 GCCTGGAGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TGACTACTAC
+sequence172                  49  1.06e-24 GCCTGGGAGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTATGGC
+sequence168                  49  1.06e-24 GCCTGGAGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TGACTACTAC
+sequence163                  49  1.06e-24 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTATAGC
+sequence162                  49  1.06e-24 GCCTGGAGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGTTATGAA
+sequence153                  49  1.06e-24 GCCTGGGAGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTATGCT
+sequence146                  49  1.06e-24 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TTACTACTAC
+sequence131                  49  1.06e-24 GCCTGGGAGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTATGCT
+sequence130                  49  1.06e-24 GCCTGGGAGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTATGGC
+sequence128                  49  1.06e-24 GCCTGGGAGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTATGCT
+sequence124                  49  1.06e-24 GCCTGGGAGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTATGCT
+sequence122                  49  1.06e-24 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAACCACTAC
+sequence118                  49  1.06e-24 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TTACTACTAC
+sequence102                  49  1.06e-24 GCCTGGGAGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTATGCT
+sequence100                  49  1.06e-24 GCCTGGGAGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTATGCT
+sequence98                   49  1.06e-24 GCCTGGGAGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTATGCT
+sequence90                   49  1.06e-24 GCCTGGGAGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTATGCT
+sequence77                   49  1.06e-24 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAACAGTGAC
+sequence76                   49  1.06e-24 GCCTGGGAGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTATGGC
+sequence72                   49  1.06e-24 GCCTGGGAGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTATGCT
+sequence71                   49  1.06e-24 GCCTGGGAGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTATGGC
+sequence48                   49  1.06e-24 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAACAGTGAC
+sequence42                   49  1.06e-24 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TGACTACTAC
+sequence28                   49  1.06e-24 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TGACTACTAC
+sequence25                   49  1.06e-24 GCCTGGAGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAGCTACTGG
+sequence10                   49  1.06e-24 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TGACTACTAC
+sequence3                    49  1.06e-24 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TGACTACTAC
+sequence16                   49  4.73e-24 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGTTTCACCTTCAG TGACTACTAC
+sequence305                  49  5.12e-23 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTTAG CAGCTATGCC
+sequence301                  49  5.12e-23 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTTAG CAGCTATGCC
+sequence282                  49  5.12e-23 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTTAG CAGCTATGCC
+sequence253                  49  5.12e-23 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTTAG CAGCTATGCC
+sequence231                  49  5.12e-23 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTTAG CAGCTATGCC
+sequence170                  49  5.12e-23 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTTAG TAGCTATTGG
+sequence169                  49  5.12e-23 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTTAG TAGCTATTGG
+sequence155                  49  5.12e-23 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTTAG TAGCTATTGG
+sequence321                  49  2.72e-22 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCGTCAG TAGCAACTAC
+sequence320                  49  2.72e-22 GCCTGGGAGG TCCCTGAGACTCTCCTGTGCAGCGTCTGGATTCACCTTCAG TAGCTATGGC
+sequence309                  49  2.72e-22 GCCTGGGAGG TCCCTGAGACTCTCCTGTGCAGCGTCTGGATTCACCTTCAG TAGCTATGGC
+sequence299                  49  2.72e-22 GCCTGGGAGG TCCCTGAGACTCTCCTGTGCAGCGTCTGGATTCACCTTCAG TAGCTATGGC
+sequence295                  49  2.72e-22 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCGTCTGGATTCACCTTCAG TAGCTATGGC
+sequence275                  49  2.72e-22 GCCTGGGAGG TCCCTGAGACTCTCCTGTGCAGCGTCTGGATTCACCTTCAG TAGCTATGGC
+sequence273                  49  2.72e-22 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCGTCAG TAGCAACTAC
+sequence260                  49  2.72e-22 GCCTGGGAGG TCCCTGAGACTCTCCTGTGCAGCGTCTGGATTCACCTTCAG TAGCTATGGC
+sequence247                  49  2.72e-22 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCGTCAG TAGCAACTAC
+sequence237                  49  2.72e-22 GCCTGGGAGG TCCCTGAGACTCTCCTGTGCAGCGTCTGGATTCACCTTCAG TAGCTATGGC
+sequence195                  49  2.72e-22 GCCTGGGAGG TCCCTGAGACTCTCCTGTGCAGCGTCTGGATTCACCTTCAG TAGCTATGGC
+sequence194                  49  2.72e-22 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGGCTCTGGATTCACCTTCAG TAGCTATGCT
+sequence174                  49  2.72e-22 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGGCTCTGGATTCACCTTCAG TAGCTATGCT
+sequence156                  49  2.72e-22 TCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGGCTCTGGATTCACCTTCAG TAGCTATGCT
+sequence154                  49  2.72e-22 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCGTCTGGATTCACCTTCAG TAGCTATGGC
+sequence75                   49  2.72e-22 GCCTGGGAGG TCCCTGAGACTCTCCTGTGCAGCGTCTGGATTCACCTTCAG TAGCTATGCT
+sequence62                   49  2.72e-22 GCCTGGGAGG TCCCTGAGACTCTCCTGTGCAGCGTCTGGATTCACCTTCAG TAGCTATGCT
+sequence46                   49  2.72e-22 GCCTGGGAGG TCCCTGAGACTCTCCTGTGCAGCGTCTGGATTCACCTTCAG TAGCTATGGC
+sequence44                   49  2.72e-22 GCCTGGGAGG TCCCTGAGACTCTCCTGTGCAGCGTCTGGATTCACCTTCAG TAGCTATGGC
+sequence9                    49  2.72e-22 GCCTAGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCGTCAG TAGCAATGAG
+sequence7                    49  2.72e-22 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCGTCAG TAGCAATGAG
+sequence2                    49  2.72e-22 GCCTAGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCGTCAG TAGCAATGAG
+sequence285                  49  1.17e-21 GCCTGGGGGG TCCCTGAGACTCTCCTGTTCAGCCTCTGGATTCACCTTCAG TAGCTATGCT
+sequence245                  49  1.17e-21 GCCTGGGGGG TCCCTGAGACTCTCCTGTTCAGCCTCTGGATTCACCTTCAG TAGCTATGCT
+sequence240                  49  1.17e-21 GCCTGGGGGG TCCCTGAGACTCTCCTGTTCAGCCTCTGGATTCACCTTCAG TAGCTATGCT
+sequence12                   49  1.84e-21 GCCTGGGGGG TCCCTGAAACTCTCCTGTGCAGCCTCTGGGTTCACCTTCAG TGGCTCTGCT
+sequence5                    49  1.84e-21 GCCTGGGGGG TCCCTGAAACTCTCCTGTGCAGCCTCTGGGTTCACCTTCAG TGGCTCTGCT
+sequence270                  49  5.22e-21 GCCTGGGGGG TCCCTGAGACACTCCTGTGCAGCCTCTGGATTCACCTTCAG TAACAGTGAC
+sequence112                  49  5.22e-21 GCCTGGGGGG TCCCTGAGACACTCCTGTGCAGCCTCTGGATTCACCTTCAG TAACAGTGAC
+sequence143                  49  9.36e-21 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGTATTCACCTTCAG TAACAGTGAC
+sequence223                  49  1.36e-20 GCCTGGGGGG GCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG TAACTACGAC
+sequence216                  49  1.36e-20 GCCTGGGAGG TCCCTGAGACTCTCCTGTGCAGCCTCTGCATTCACCTTCAG TAGCTATGCT
+sequence224                  49  1.64e-20 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTGTGGATTCACCTTCAG TAGCTACGAC
+sequence261                  49  2.80e-20 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGGTTCACCGTCAG TAGCAACTAC
+sequence148                  49  2.80e-20 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGGTTCACCGTCAG TAGCAACTAC
+sequence136                  49  2.80e-20 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGGTTCACCGTCAG TAGCAACTAC
+sequence119                  49  2.80e-20 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGGTTCACCGTCAG TAGCAACTAC
+sequence94                   49  2.80e-20 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGGTTCACCGTCAG TAGCAACTAC
+sequence319                  49  3.96e-20 GCCTGGGGGG TCCCTTAGACTCTCCTGTGCAGCCTCTGGATTCACTTTCAG TAACGCCTGG
+sequence297                  49  3.96e-20 GCCTGGGGGG TCCCTTAGACTCTCCTGTGCAGCCTCTGGATTCACTTTCAG TAACGCCTGG
+sequence262                  49  3.96e-20 GCCTGGGGGG TCCCTTAGACTCTCCTGTGCAGCCTCTGGATTCACTTTCAG TAACGCCTGG
+sequence246                  49  3.96e-20 GCCTGGGGGG TCCCTTAGACTCTCCTGTGCAGCCTCTGGATTCACTTTCAG TAACGCCTGG
+sequence239                  49  3.96e-20 GCCTGGGGGG TCCCTTAGACTCTCCTGTGCAGCCTCTGGATTCACTTTCAG TAACGCCTGG
+sequence304                  49  5.55e-20 GCCTGGGGGT TCTCTGAGACTCTCATGTGCAGCCTCTGGATTCACCTTCAG TGACCACTAC
+sequence303                  49  5.55e-20 GCCTGGGGGT TCTCTGAGACTCTCATGTGCAGCCTCTGGATTCACCTTCAG TGACCACTAC
+sequence258                  49  5.55e-20 GCCTGGGGGT TCTCTGAGACTCTCATGTGCAGCCTCTGGATTCACCTTCAG TGACCACTAC
+sequence40                   49  5.55e-20 GCCAGGGCGG TCCCTGAGACTCTCCTGTACAGCTTCTGGATTCACCTTTGG TGATTATGCT
+sequence33                   49  5.55e-20 GCCAGGGCGG TCCCTGAGACTCTCCTGTACAGCTTCTGGATTCACCTTTGG TGATTATGCT
+sequence13                   49  5.55e-20 GCCAGGGCGG TCCCTGAGACTCTCCTGTACAGCTTCTGGATTCACCTTTGG TGATTATGCT
+sequence8                    49  5.55e-20 GCCAGGGCCG TCCCTGAGACTCTCCTGTACAGCTTCTGGATTCACCTTTGG GTATTATCCT
+sequence1                    49  5.55e-20 GCCAGGGCGG TCCCTGAGACTCTCCTGTACAGCTTCTGGATTCACCTTTGG TGATTATGCT
+sequence324                  49  9.08e-20 GCCTGGGGGT TCTCTGAGACTCTCATGTGCTGCCTCTGGATTCACCTTCAG TGACCACTAC
+sequence271                  49  9.08e-20 GCCTGGGGGG TCCCTTAGACTCTCCTGTGCAGCCTCTGGTTTCACTTTCAG TAACGCCTGG
+sequence229                  49  1.46e-19 ACTTGGGGGA TCCCTGAGACTCTCCTGTGCAGACTCTGGATTAACCTTCAG TAGCTACTGA
+sequence213                  49  1.46e-19 ACTTGGGGGA TCCCTGAGACTCTCCTGTGCAGACTCTGGATTAACCTTCAG TAGCTACTGA
+sequence193                  49  1.46e-19 ACTTGGGGGA TCCCTGAGACTCTCCTGTGCAGACTCTGGATTAACCTTCAG TAGCTACTGA
+sequence38                   49  1.99e-19 ACTTGGGAAG TTCCTGAGACTCTCCTGTGTAGCCTCTGGATTCACCTTCAG TAGCTACTGA
+sequence24                   49  1.99e-19 ACTTGGGAAG TTCCTGAGACTCTCCTGTGTAGCCTCTGGATTCACCTTCAG TAGCTACTGA
+sequence311                  49  4.22e-19 GCCTGGGGGG TCCCTGAGACTGTCCTGTCCAGCCTCTGGATTCACCTTCAG TAACCACTAC
+sequence26                   49  4.22e-19 GCCTGGGGGG TCCCTGAGACCCTCCTGTGCAGCCTCTGGATTCGCCTTCAG TAGCTATGTT
+sequence21                   49  4.22e-19 GCCTGGGGGG TCCCTGAGACCCTCCTGTGCAGCCTCTGGATTCGCCTTCAG TAGCTATGTT
+sequence197                  49  4.88e-19 GCCTGGCAGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTTGA TGATTATGCC
+sequence97                   49  4.88e-19 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTTGA TGATTATACC
+sequence96                   49  4.88e-19 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTTGA TGATTATGGC
+sequence67                   49  4.88e-19 GCCTGGGGGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTTGA TGATTATGCC
+sequence142                  49  7.51e-19 GCCTTCGGAC ACCCTGTCCCTCACCTGCGCTGTCTCTGGTTACTCCATCAG CAGTAGTAAC
+sequence113                  49  7.51e-19 GCCTTCGGAC ACCCTGTCCCTCACCTGCGCTGTCTCTGGTTACTCCATCAG CAGTAGTAAC
+sequence111                  49  7.51e-19 GCCTTCGGAC ACCCTGTCCCTCACCTGCGCTGTCTCTGGTTACTCCATCAG CAGTAGTAAC
+sequence85                   49  7.51e-19 GCCTTCGGAC ACCCTGTCCCTCACCTGCGCTGTCTCTGGTTACTCCATCAG CAGTAGTAAC
+sequence58                   49  7.51e-19 GCCTTCACAG ACCCTGTCCCTCACCTGCGCTGTCTCTGGTTACTCCATCAG CAGTAGTAAC
+sequence57                   49  7.51e-19 GCCTTCGGAC ACCCTGTCCCTCACCTGCGCTGTCTCTGGTTACTCCATCAG CAGTAGTAAC
+sequence23                   49  7.51e-19 GCCTTCGGAG ACCCTGTCCCTCACCTGCGCTGTCTCTGGTTACTCCATCAG CAGTGGTTAC
+sequence37                   49  9.94e-19 GCCTTCGGAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTTACTCCATCAG CAGTGGTTAC
+sequence166                  49  2.25e-18 GCCTTCACAG ACCCTGTCCCTCACCTGTACTGTCTCTGGTGGCTCCATCAG CAGTGGTGGT
+sequence105                  49  2.25e-18 GCCTCCGGGG ACCCTGTCCCTCACCTGCGCTGTCTCTGGTGGCTCCATCAG CAGTAGTAAC
+sequence101                  49  2.25e-18 GCCTCCGGGG ACCCTGTCCCTCACCTGCGCTGTCTCTGGTGGCTCCATCAG CAGTAGTAAC
+sequence74                   49  2.25e-18 GCCTTCGGGG ACCCTGTCCCTCACCTGCGCTGTCTCTGGTGGCTCCATCAG CAGTAGTAAC
+sequence43                   49  2.25e-18 GCCTCCGGGG ACCCTGTCCCTCACCTGCGCTGTCTCTGGTGGCTCCATCAG CAGTAGTAAC
+sequence32                   49  2.25e-18 GCCTTCACAG ACCCTGTCCCTCACCTGCGCTGTCTCTGGTGGCTCCATCAG CAGTGGTGGT
+sequence27                   49  2.25e-18 GCCTTCACAG ACCCTGTCCCTCACCTGCGCTGTCTCTGGTGGCTCCATCAG CAGTGGTGGT
+sequence17                   49  2.25e-18 GCCTTCACAG ACCCTGTCCCTCACCTGCGCTGTCTCTGGTGGCTCCATCAG CAGTGGTGGT
+sequence6                    49  2.25e-18 GCCTTCACAG ACCCTGTCCCTCACCTGCGCTGTCTCTGGTGGCTCCATCAG CAGTGGTGGT
+sequence308                  49  2.93e-18 GCCTTCGGAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG CAGTAGTAGT
+sequence300                  49  2.93e-18 GCCTTCGGAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG CAGTAGTAGT
+sequence283                  49  2.93e-18 GCCTTCGGAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG CAGTAGTAGT
+sequence276                  49  2.93e-18 GCCTTCGGAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG CAGTAGTAGT
+sequence259                  49  2.93e-18 GCCTTCGGAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG CAGTAGTAGT
+sequence220                  49  2.93e-18 GCCTTCACAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG CAGTGGTAGT
+sequence210                  49  2.93e-18 GCCTTCACAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG CAGTGGTGGT
+sequence209                  49  2.93e-18 GCCTTCACAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG CAGTGGTGGT
+sequence204                  49  2.93e-18 GCCTTCACAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG CAGTGGTGGT
+sequence196                  49  2.93e-18 GCCTTCGGAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG TAGTTACTAC
+sequence189                  49  2.93e-18 GCCTTCACAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG CAGTGGTGGT
+sequence159                  49  2.93e-18 GCCTTCACAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG CAGTGGTGGT
+sequence152                  49  2.93e-18 GCCTTCGGAC ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG TAGTTACTAC
+sequence151                  49  2.93e-18 GCCTTCGGAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG TAGTTACTAC
+sequence145                  49  2.93e-18 GCCTTCGGAC ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG CAGTGGTGAT
+sequence139                  49  2.93e-18 GCCTTCACAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG CAGTGGTGAT
+sequence137                  49  2.93e-18 GCCTTCACAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG CAGTGGTAGT
+sequence127                  49  2.93e-18 GCCTTCGGAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG TAGTTACTAC
+sequence117                  49  2.93e-18 GCCTTCACAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG CAGTGGTGAT
+sequence103                  49  2.93e-18 GCCTTCGGAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG TAGTTACTAC
+sequence99                   49  2.93e-18 GCCTTCGGAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG TAGTTACTAC
+sequence95                   49  2.93e-18 GCCTTCGGAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG CAGTAGTAGT
+sequence89                   49  2.93e-18 GCCTTCACAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG CAGTGGTGAT
+sequence88                   49  2.93e-18 GCCTTCACAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG CAGTGGTGGT
+sequence83                   49  2.93e-18 GCCTTCACAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG CAGTGGTGGT
+sequence47                   49  2.93e-18 GCCTTCGGAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG TAGTTACTAC
+sequence284                  49  4.32e-18 GCCTGGGGGG TCCCTTAGACTCTCCTGTGCAGCCTCTGGATTCACTTGCAG TAACGCCTGG
+sequence264                  49  4.32e-18 AGCCTGGGGG TCCCTTAGACTCTCCTGTGCAGCCTCTGGATTCACTTGCAG TAACGCCTGG
+sequence39                   49  4.32e-18 GCCTGGGGGG TCCCTTAGACTCTCCTGTGCAGCCTCTGGATTCACTTGCAG TAACGCCTGG
+sequence228                  49  6.32e-18 GCCTGCGTGG TCCCCGAGACTCTCCTGTGCAGCCTCTCAATTCACCTTCAG TAGCTACTAC
+sequence219                  49  6.32e-18 GCCTGCGTGG TCCCCGAGACTCTCCTGTGCAGCCTCTCAATTCACCTTCAG TAGCTACTAC
+sequence211                  49  6.32e-18 GCCTGCGTGG TCCCCGAGACTCTCCTGTGCAGCCTCTCAATTCACCTTCAG TAGCTACTAC
+sequence191                  49  6.32e-18 GCCTGGGCGG TCCCCGAGACTCTCCTGTGCAGCCTCTCAATTCACCTTCAG TAGCTACTAC
+sequence177                  49  6.32e-18 GCCTGCGTGG TCCCCGAGACTCTCCTGTGCAGCCTCTCAATTCACCTTCAG TAGCTACTAC
+sequence288                  49  1.04e-17 GCCTGGGGGG TCCCTGAGACTGTCCTGTCCAGACTCTGGATTCACCTTCAG TAACCACTAC
+sequence201                  49  1.04e-17 GCCTTCGGAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCGTCAG CAGTGGTGGT
+sequence147                  49  1.04e-17 GCCTTCGGAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCGTCAG CAGTGGTAGT
+sequence107                  49  1.04e-17 GCCTTCGGAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCGTCAG CAGTGGTAGT
+sequence78                   49  1.04e-17 GCCTTCGGAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCGTCAG CAGTGGTAGT
+sequence70                   49  1.04e-17 GCCTTCGGAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCGTCAG TAGTTACTAC
+sequence278                  49  2.40e-17 GCCTGGGTCC TCAGTGAAGGTCTCCTGCAAGGCTTCTGGAGGCACCTTCAG CAGCTATGCT
+sequence252                  49  2.40e-17 GCCTGGGTCC TCAGTGAAGGTCTCCTGCAAGGCTTCTGGAGGCACCTTCAG CAGCTATGCT
+sequence125                  49  2.70e-17 GCCTTCGGAG ACCCTGTCCCTCACCTGCGCTGTCTATGGTGGCTCCATCAG TAGTTACTAC
+sequence312                  49  3.04e-17 GCCTGGGGCC TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACACCTTCAC CGACTACTTT
+sequence294                  49  3.04e-17 GCCTGGGGCC TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACACCTTCAC CAGCTACTAT
+sequence291                  49  3.04e-17 GCCTGGGGCC TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACACCTTCAC CGGCTACTAT
+sequence290                  49  3.04e-17 GCCTGGGGCC TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACACCTTCAC CGGCTACTAT
+sequence287                  49  3.04e-17 GCCTGGGGCC TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACACCTTCAC CGACTACTTT
+sequence267                  49  3.04e-17 GCCTGGGGCC TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACACCTTCAC CGGCTACTAT
+sequence243                  49  3.04e-17 GCTTGGGGCC TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACACCTTCAC CGGCTACTAT
+sequence242                  49  3.04e-17 GCCTGGGGCC TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACACCTTCAC CGGCTACTAT
+sequence230                  49  3.04e-17 GCCTGGGGCC TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACACCTTCAC CAACTACTGT
+sequence214                  15  3.04e-17 GCCTGGGGCC TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACACCTTCAC CAGCTACTGT
+sequence188                  49  3.04e-17 GCCTGGGGCC TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACACCTTCAC CAGCTATGAT
+sequence165                  49  3.04e-17 GCCTGGGGCC TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACACCTTCAC CAGTTATGAT
+sequence185                  49  3.41e-17 GCCTTCGGAG ACCCTGTCCCTCATCTGCGCTGTCTCTGGTGACTCCATCAG CAGTGGTAAC
+sequence181                  49  3.41e-17 GCCTTCGGAG ACCCTGTCCCTCATCTGCGCTGTCTCTGGTGACTCCATCAG CAGTGGTAAC
+sequence144                  49  3.41e-17 GCCTTCGGAG ACCCTGTCCCTCATCTGCGCTGTCTCTGGTGACTCCATCAG CAGTGGTAAC
+sequence140                  49  3.41e-17 GCCTTCGGAG ACCCTGTCCCTCATCTGCGCTGTCTCTGGTGACTCCATCAG CAGTGGTAAC
+sequence114                  49  3.41e-17 GCTTTCGGAG ACCCTGTCCCTCATCTGCGCTGTCTCTGGTGACTCCATCAG CAGTGGTAAC
+sequence110                  49  3.41e-17 GCTTTCGGAG ACCCTGTCCCTCATCTGCGCTGTCTCTGGTGACTCCATCAG CAGTGGTAAC
+sequence87                   49  3.41e-17 GCCTTCGGAG ACCCTGTCCCTCATCTGCGCTGTCTCTGGTGACTCCATCAG CAGTGGTAAC
+sequence84                   49  3.41e-17 GCCTTCGGAG ACCCTGTCCCTCACCTGCGTTGTCTCTGGTGGCTCCATCAG CAGTAGTAAC
+sequence61                   49  3.41e-17 GCCTTCGGAG ACCCTGTCCCTCATCTGCGCTGTCTCTGGTGACTCCATCAG CAGTGGTAAC
+sequence59                   49  3.41e-17 GCCTTCGGAG ACCCTGTCCCTCACCTGCGTTGTCTCTGGTGGCTCCATCAG CAGTAGTAAC
+sequence56                   49  3.41e-17 GCCTTCGGAG ACCCTGTCCCTCACCTGCGTTGTCTCTGGTGGCTCCATCAG CAGTAGTAAC
+sequence54                   49  3.41e-17 GCCTTCGGAG ACCCTGTCCCTCATCTGCGCTGTCTCTGGTGACTCCATCAG CAGTGGTAAC
+sequence208                  49  3.82e-17 GCCTGGGGCC TCAGTGAGGATCTCCTGCAAGGCTTCTGGATACACCTTCAC CAGCTACTGT
+sequence35                   49  3.82e-17 GCCTGGGGGG TCCCTGCGACCCTCCTGTGCAGCCTCTGGATTCGCCTTCAG TAGCTATGCT
+sequence34                   49  6.02e-17 GCCTGGGACC TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATTCACCTTTAC TAGCTCTGCT
+sequence20                   49  6.02e-17 GCCTGGGACC TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATTCACCTTTAC TAGCTCTGCT
+sequence217                  49  6.73e-17 GCCTGGCAGG TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTCTGA TGATTATGCC
+sequence322                  49  7.52e-17 GCCTGGGTCC TCGGTGAAGGTCTCCTGCAAGGCTTCTGGAGGCACCTTCAG CAGCTATACT
+sequence307                  49  7.52e-17 GCCTGGGTCC TCGGTGAAGGTCTCCTGCAAGGCTTCTGGAGGCACCTTCAG CAGCTATGCT
+sequence302                  49  7.52e-17 GCCTGGGTCC TCGGTGAAGGTCTCCTGCAAGGCTTCTGGAGGCACCTTCAG CAGCTATGCT
+sequence279                  49  7.52e-17 GCCTGGGTCC TCGGTGAAGGTCTCCTGCAAGGCTTCTGGAGGCACCTTCAG CAGCTATGCT
+sequence256                  49  7.52e-17 GCCTGGGTCC TCGGTGAAGGTCTCCTGCAAGGCTTCTGGAGGCACCTTCAG CAGCTATGCT
+sequence255                  49  7.52e-17 GCCTGGGTCC TCGGTGAAGGTCTCCTGCAAGGCTTCTGGAGGCACCTTCAG CAGCTATGCT
+sequence249                  15  7.52e-17 GCCTGGGTCC TCGGTGAAGGTCTCCTGCAAGGCTTCTGGAGGCACCTTCAG CAGCTATGCT
+sequence248                  49  7.52e-17 GCCTTCGGAG ACCCCGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG CAGTAGTAGT
+sequence235                  49  7.52e-17 GCCTGGGTCC TCGGTGAAGGTCTCCTGCAAGGCTTCTGGAGGCACCTTCAG CAGCTATGCT
+sequence232                  49  7.52e-17 GCCTGGGTCC TCGGTGAAGGTCTCCTGCAAGGCTTCTGGAGGCACCTTCAG CAGCTATGCT
+sequence227                  49  7.52e-17 GCCTTCACAG ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGATCCATCAG CAGTGGTGGT
+sequence212                  49  7.52e-17 GCCTTCGGAG ACCCTGTCCCTCACCTGCGCTGTCTATGGTGGGACCTTCAG TGGTTACTAC
+sequence30                   49  7.52e-17 GCCTGGGTCC TCGGTGAAGGTCTCCTGCAAGGCTTCTGGAGGCACCTTCAG CAGCTATACT
+sequence14                   49  7.52e-17 GCCTGGGTCC TCGGTGAAGGTCTCCTGCAAGGCTTCTGGAGGCACCTTCAG CAGCTATGCT
+sequence274                  49  8.40e-17 GCCTGGGGCC TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACACCATCAC CAGCTACTGT
+sequence182                  49  9.38e-17 GCCTGGGGCT ACAGTGAAAATCTCCTGCAAGGTTTCTGGATACACCTTCAC CGACTACTAC
+sequence161                  15  9.38e-17 GCCTGGGGCT ACAGTGAAAATCTCCTGCAAGGTTTCTGGATACACCTTCAC CGACTACTAC
+sequence123                  49  9.38e-17 GCCTCCGGGG ACCCTGTCCCTCACCTGCGCTATCTCTGGTGGCTCCATCAG CAGTAGTAAC
+sequence202                  49  1.30e-16 GCCTTCACAG ACCCTGTCCCTCACCTGCGCTGTCTATGGTGGGTCCTTCAG TGGTTACTAC
+sequence149                  49  1.30e-16 GCCTTCGGAG ACCCTGTCCCTCACCTGCGCTGTCTATGGTGGGTCCTTCAG TGGTTACTAC
+sequence135                  49  1.30e-16 GCCTTCGGAG ACCCTGTCCCTCACCTGCGCTGTCTATGGTGGGTCCTTCAG TGGTTACTAC
+sequence120                  49  1.30e-16 GCCTTCGGAG ACCCTGTCCCTCACCTGCGCTGTCTATGGTGGGTCCTTCAG TGGTTACTAC
+sequence93                   49  1.30e-16 GCCTTCGGAG ACCCTGTCCCTCACCTGCGCTGTCTATGGTGGGTCCTTCAG TGGTTACTAC
+sequence91                   49  1.30e-16 GCCTTCGGAG ACCCTGTCCCTCACCTGCGCTGTCTATGGTGGGTCCTTCAG TGGTTACTAC
+sequence81                   49  1.30e-16 GCCTTCGGAG ACCCTGTCCCTCACCTGCGCTGTCTATGGTGGGTCCTTCAG TGGTTACTAC
+sequence65                   49  1.30e-16 GCCTTCGGAG ACCCTGTCCCTCACCTGCGCTGTCTATGGTGGGTCCTTCAG TGGTTACTAC
+sequence52                   49  1.30e-16 GCCTTCGGAG ACCCTGTCCCTCACCTGCGCTGTCTATGGTGGGTCCTTCAG TGGTTACTAC
+sequence51                   49  1.30e-16 GCCTTCGGAG ACCCTGTCCCTCACCTGCGCTGTCTATGGTGGGTCCTTCAG TGGTTACTAC
+sequence132                  49  2.46e-16 GCCTTCGGAG ACCCTGTCCCTCACCTGCACTGTCACTGGTGGCTCCATCAG TAGTTACTAC
+sequence141                  49  3.04e-16 GCCTGGGGCC TCAGTGAAGGTTTCCTGCAAGGCTTCTGGATACACCTTCAC TAGCTATGCT
+sequence115                  49  3.04e-16 GCCTGGGGCC TCAGTGAAGGTTTCCTGCAAGGCTTCTGGATACACCTTCAC TAGCTATGCT
+sequence109                  49  3.04e-16 GCCTGGGGCC TCAGTGAAGGTTTCCTGCAAGGCTTCTGGATACACCTTCAC TAGCTATGCT
+sequence92                   49  3.04e-16 GCCTGGGGCC TCAGTGAAGGTTTCCTGCAAGGCTTCTGGATACACCTTCAC TAGCTATGCT
+sequence64                   49  3.04e-16 GCCTGGGGCC TCAGTGAAGGTTTCCTGCAAGGCTTCTGGATACACCTTCAC TAGCTATGCT
+sequence60                   49  3.04e-16 GCCTGGGGCC TCAGTGAAGGTTTCCTGCAAGGCTTCTGGATACACCTTCAC TAGCTATGCT
+sequence55                   49  3.04e-16 GCCTGGGGCC TCAGTGAAGGTTTCCTGCAAGGCTTCTGGATACACCTTCAC TAGCTATGCT
+sequence86                   49  4.14e-16 ACCTGGGAAG TTCCTGAGACTCTCCTGTGTAGCCTCTAGATTCGCCTTCAG TAGCTTCTGA
+sequence310                  49  5.61e-16 GCCTGGGGCC TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACATCTTCAC CGACTACTAT
+sequence272                  49  5.61e-16 GCCTGGGGCC TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACATCTTCAC CGACTACTAT
+sequence263                  49  5.61e-16 GCCTGGGGCC TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACATCTTCAC CGACTACTAT
+sequence238                  49  5.61e-16 GCCTGGGGCC TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACATCTTCAC CGACTACTAT
+sequence36                   49  1.24e-15 GCCTCTGTCC TCAGTGAAGGTCTCCTTCAAGGCTTCTGGATACACCTTCAC CAACAACTTT
+sequence138                  49  1.83e-15 GCCTGGGGCC TCAGTGAAGGTCTCCTGCAAGGCTTCCGGATACACCTTCAC TTGCTGCTCC
+sequence41                   49  2.21e-15 GCCTGGGGCC TCAGTGAAGGTTTCCTGCAAGGCATCTGGATACACCTTCAC CAGCTACTAT
+sequence18                   49  2.21e-15 GCCTGGGGCC TCAGTGAAGGTTTCCTGCAAGGCATCTGGATACACCTTCAC CAGCTACTAT
+sequence218                  49  4.67e-15 GCCCGGGGAG TCTCTGAGGATCTCCTGTAAGGGTTCTGGATACAGCTTTAC CAGCTACTGG
+sequence190                  49  4.67e-15 GCCCGGGGAG TCTCTGAGGATCTCCTGTAAGGGTTCTGGATACAGCTTTAC CAGCTACTGG
+sequence178                  49  4.67e-15 GCCCGGGGAG TCTCTGAGGATCTCCTGTAAGGGTTCTGGATACAGCTTTAC CAGCTACTGG
+sequence158                  49  4.67e-15 GCCCGGGGAG TCTCTGAGGATCTCCTGTAAGGGTTCTGGATACAGCTTTAC CAGCTACTGG
+sequence129                  49  7.36e-15 GCCCGGGGAG TCTCTGAAGATCTCCTGTAAGGGTTCTGGATACAGCTTTAC CAGCTACTGG
+sequence126                  49  7.36e-15 GCCGGGGGAG TCTCTGAAGATCTCCTGTAAGGGTTCTGGATACAGCTTTAC CAGCTACTGG
+sequence104                  49  7.36e-15 GCCCGGGGAG TCTCTGAAGATCTCCTGTAAGGGTTCTGGATACAGCTTTAC CAGCTACTGG
+sequence73                   15  7.36e-15 GCCCGGGGAG TCTCTGAAGATCTCCTGTAAGGGTTCTGGATACAGCTTTAC CAGCTACTGG
+sequence45                   49  7.36e-15 GCCGGGGGAG TCTCTGAAGATCTCCTGTAAGGGTTCTGGATACAGCTTTAC CAGCTACTGG
+sequence31                   49  7.36e-15 GCCTGGGGCC TCAGTGAAGGTTTCCTGCAAGGCATCTGGATACACCTTCAA CAGCTACTAT
+sequence286                  49  1.37e-14 ACCCGGGGAG TCTCTGAGGATCTCCTGTAAGACTTCTGGATACAGCTTTAC CAGCTACTGG
+sequence222                  49  1.94e-14 GCCTGGGGGG TACCTAAAACTCTCCGGTGCAGCCTCTGGATTCACCGTCGG TAGCTGGTAC
+sequence49                   49  1.85e-12 ACCCACAGAG ACCCTCACGCTGACCTGCACCGTCTCTGGGTTCTCACTCAG CAATGCTAGA
+sequence15                   49  1.04e-11 ACCCACACAG ACCCTCACACTGACCTGCGCCTTCTCTGGGTTCTCACTCAG CACTAGTGGA
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG MEME-1 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+sequence318                       1.1e-24  48_[1]_207
+sequence317                       1.1e-24  48_[1]_207
+sequence315                       1.1e-24  48_[1]_207
+sequence313                       1.1e-24  48_[1]_207
+sequence298                       1.1e-24  48_[1]_205
+sequence296                       1.1e-24  48_[1]_207
+sequence293                       1.1e-24  48_[1]_205
+sequence289                       1.1e-24  48_[1]_205
+sequence269                       1.1e-24  48_[1]_207
+sequence268                       1.1e-24  48_[1]_205
+sequence266                       1.1e-24  48_[1]_207
+sequence265                       1.1e-24  48_[1]_207
+sequence244                       1.1e-24  48_[1]_207
+sequence241                       1.1e-24  48_[1]_207
+sequence215                       1.1e-24  48_[1]_207
+sequence207                       1.1e-24  48_[1]_207
+sequence206                       1.1e-24  48_[1]_204
+sequence200                       1.1e-24  48_[1]_207
+sequence199                       1.1e-24  48_[1]_207
+sequence198                       1.1e-24  48_[1]_207
+sequence186                       1.1e-24  48_[1]_207
+sequence184                       1.1e-24  48_[1]_207
+sequence183                       1.1e-24  48_[1]_204
+sequence175                       1.1e-24  48_[1]_213
+sequence173                       1.1e-24  48_[1]_207
+sequence172                       1.1e-24  48_[1]_207
+sequence168                       1.1e-24  48_[1]_205
+sequence163                       1.1e-24  48_[1]_207
+sequence162                       1.1e-24  48_[1]_207
+sequence153                       1.1e-24  48_[1]_207
+sequence146                       1.1e-24  48_[1]_213
+sequence131                       1.1e-24  48_[1]_207
+sequence130                       1.1e-24  48_[1]_207
+sequence128                       1.1e-24  48_[1]_207
+sequence124                       1.1e-24  48_[1]_207
+sequence122                       1.1e-24  48_[1]_203
+sequence118                       1.1e-24  48_[1]_213
+sequence102                       1.1e-24  48_[1]_207
+sequence100                       1.1e-24  48_[1]_207
+sequence98                        1.1e-24  48_[1]_207
+sequence90                        1.1e-24  48_[1]_205
+sequence77                        1.1e-24  48_[1]_207
+sequence76                        1.1e-24  48_[1]_207
+sequence72                        1.1e-24  48_[1]_207
+sequence71                        1.1e-24  48_[1]_207
+sequence48                        1.1e-24  48_[1]_207
+sequence42                        1.1e-24  48_[1]_213
+sequence28                        1.1e-24  48_[1]_213
+sequence25                        1.1e-24  48_[1]_205
+sequence10                        1.1e-24  48_[1]_204
+sequence3                         1.1e-24  48_[1]_204
+sequence16                        4.7e-24  48_[1]_213
+sequence305                       5.1e-23  48_[1]_207
+sequence301                       5.1e-23  48_[1]_205
+sequence282                       5.1e-23  48_[1]_207
+sequence253                       5.1e-23  48_[1]_205
+sequence231                       5.1e-23  48_[1]_207
+sequence170                       5.1e-23  48_[1]_207
+sequence169                       5.1e-23  48_[1]_207
+sequence155                       5.1e-23  48_[1]_205
+sequence321                       2.7e-22  48_[1]_204
+sequence320                       2.7e-22  48_[1]_207
+sequence309                       2.7e-22  48_[1]_207
+sequence299                       2.7e-22  48_[1]_207
+sequence295                       2.7e-22  48_[1]_207
+sequence275                       2.7e-22  48_[1]_207
+sequence273                       2.7e-22  48_[1]_202
+sequence260                       2.7e-22  48_[1]_207
+sequence247                       2.7e-22  48_[1]_204
+sequence237                       2.7e-22  48_[1]_207
+sequence195                       2.7e-22  48_[1]_207
+sequence194                       2.7e-22  48_[1]_204
+sequence174                       2.7e-22  48_[1]_202
+sequence156                       2.7e-22  48_[1]_202
+sequence154                       2.7e-22  48_[1]_207
+sequence75                        2.7e-22  48_[1]_207
+sequence62                        2.7e-22  48_[1]_207
+sequence46                        2.7e-22  48_[1]_207
+sequence44                        2.7e-22  48_[1]_207
+sequence9                         2.7e-22  48_[1]_203
+sequence7                         2.7e-22  48_[1]_199
+sequence2                         2.7e-22  48_[1]_203
+sequence285                       1.2e-21  48_[1]_207
+sequence245                       1.2e-21  48_[1]_207
+sequence240                       1.2e-21  48_[1]_207
+sequence12                        1.8e-21  48_[1]_213
+sequence5                         1.8e-21  48_[1]_213
+sequence270                       5.2e-21  48_[1]_205
+sequence112                       5.2e-21  48_[1]_205
+sequence143                       9.4e-21  48_[1]_207
+sequence223                       1.4e-20  48_[1]_204
+sequence216                       1.4e-20  48_[1]_205
+sequence224                       1.6e-20  48_[1]_202
+sequence261                       2.8e-20  48_[1]_204
+sequence148                       2.8e-20  48_[1]_202
+sequence136                       2.8e-20  48_[1]_204
+sequence119                       2.8e-20  48_[1]_204
+sequence94                        2.8e-20  48_[1]_204
+sequence319                         4e-20  48_[1]_213
+sequence297                         4e-20  48_[1]_213
+sequence262                         4e-20  48_[1]_213
+sequence246                         4e-20  48_[1]_213
+sequence239                         4e-20  48_[1]_213
+sequence304                       5.5e-20  48_[1]_211
+sequence303                       5.5e-20  48_[1]_211
+sequence258                       5.5e-20  48_[1]_213
+sequence40                        5.5e-20  48_[1]_213
+sequence33                        5.5e-20  48_[1]_213
+sequence13                        5.5e-20  48_[1]_213
+sequence8                         5.5e-20  48_[1]_213
+sequence1                         5.5e-20  48_[1]_213
+sequence324                       9.1e-20  48_[1]_211
+sequence271                       9.1e-20  48_[1]_213
+sequence229                       1.5e-19  48_[1]_207
+sequence213                       1.5e-19  48_[1]_207
+sequence193                       1.5e-19  48_[1]_207
+sequence38                          2e-19  48_[1]_209
+sequence24                          2e-19  48_[1]_205
+sequence311                       4.2e-19  48_[1]_203
+sequence26                        4.2e-19  48_[1]_193
+sequence21                        4.2e-19  48_[1]_204
+sequence197                       4.9e-19  48_[1]_209
+sequence97                        4.9e-19  48_[1]_209
+sequence96                        4.9e-19  48_[1]_207
+sequence67                        4.9e-19  48_[1]_209
+sequence142                       7.5e-19  48_[1]_207
+sequence113                       7.5e-19  48_[1]_205
+sequence111                       7.5e-19  48_[1]_198
+sequence85                        7.5e-19  48_[1]_207
+sequence58                        7.5e-19  48_[1]_207
+sequence57                        7.5e-19  48_[1]_207
+sequence23                        7.5e-19  48_[1]_205
+sequence37                        9.9e-19  48_[1]_205
+sequence166                       2.2e-18  48_[1]_210
+sequence105                       2.2e-18  48_[1]_198
+sequence101                       2.2e-18  48_[1]_207
+sequence74                        2.2e-18  48_[1]_207
+sequence43                        2.2e-18  48_[1]_198
+sequence32                        2.2e-18  48_[1]_210
+sequence27                        2.2e-18  48_[1]_210
+sequence17                        2.2e-18  48_[1]_205
+sequence6                         2.2e-18  48_[1]_210
+sequence308                       2.9e-18  48_[1]_210
+sequence300                       2.9e-18  48_[1]_201
+sequence283                       2.9e-18  48_[1]_210
+sequence276                       2.9e-18  48_[1]_210
+sequence259                       2.9e-18  48_[1]_210
+sequence220                       2.9e-18  48_[1]_201
+sequence210                       2.9e-18  48_[1]_205
+sequence209                       2.9e-18  48_[1]_210
+sequence204                       2.9e-18  48_[1]_202
+sequence196                       2.9e-18  48_[1]_204
+sequence189                       2.9e-18  48_[1]_210
+sequence159                       2.9e-18  48_[1]_210
+sequence152                       2.9e-18  48_[1]_202
+sequence151                       2.9e-18  48_[1]_204
+sequence145                       2.9e-18  48_[1]_210
+sequence139                       2.9e-18  48_[1]_201
+sequence137                       2.9e-18  48_[1]_210
+sequence127                       2.9e-18  48_[1]_199
+sequence117                       2.9e-18  48_[1]_210
+sequence103                       2.9e-18  48_[1]_199
+sequence99                        2.9e-18  48_[1]_204
+sequence95                        2.9e-18  48_[1]_208
+sequence89                        2.9e-18  48_[1]_201
+sequence88                        2.9e-18  48_[1]_201
+sequence83                        2.9e-18  48_[1]_201
+sequence47                        2.9e-18  48_[1]_199
+sequence284                       4.3e-18  48_[1]_213
+sequence264                       4.3e-18  48_[1]_213
+sequence39                        4.3e-18  48_[1]_213
+sequence228                       6.3e-18  48_[1]_207
+sequence219                       6.3e-18  48_[1]_205
+sequence211                       6.3e-18  48_[1]_207
+sequence191                       6.3e-18  48_[1]_205
+sequence177                       6.3e-18  48_[1]_207
+sequence288                         1e-17  48_[1]_207
+sequence201                         1e-17  48_[1]_210
+sequence147                         1e-17  48_[1]_210
+sequence107                         1e-17  48_[1]_210
+sequence78                          1e-17  48_[1]_198
+sequence70                          1e-17  48_[1]_204
+sequence278                       2.4e-17  48_[1]_207
+sequence252                       2.4e-17  48_[1]_207
+sequence125                       2.7e-17  48_[1]_204
+sequence312                         3e-17  48_[1]_205
+sequence294                         3e-17  48_[1]_205
+sequence291                         3e-17  48_[1]_207
+sequence290                         3e-17  48_[1]_205
+sequence287                         3e-17  48_[1]_207
+sequence267                         3e-17  48_[1]_207
+sequence243                         3e-17  48_[1]_207
+sequence242                         3e-17  48_[1]_207
+sequence230                         3e-17  48_[1]_205
+sequence214                         3e-17  14_[1]_205
+sequence188                         3e-17  48_[1]_207
+sequence165                         3e-17  48_[1]_207
+sequence185                       3.4e-17  48_[1]_207
+sequence181                       3.4e-17  48_[1]_207
+sequence144                       3.4e-17  48_[1]_198
+sequence140                       3.4e-17  48_[1]_198
+sequence114                       3.4e-17  48_[1]_198
+sequence110                       3.4e-17  48_[1]_198
+sequence87                        3.4e-17  48_[1]_207
+sequence84                        3.4e-17  48_[1]_207
+sequence61                        3.4e-17  48_[1]_207
+sequence59                        3.4e-17  48_[1]_207
+sequence56                        3.4e-17  48_[1]_207
+sequence54                        3.4e-17  48_[1]_198
+sequence208                       3.8e-17  48_[1]_207
+sequence35                        3.8e-17  48_[1]_202
+sequence34                          6e-17  48_[1]_207
+sequence20                          6e-17  48_[1]_207
+sequence217                       6.7e-17  48_[1]_209
+sequence322                       7.5e-17  48_[1]_205
+sequence307                       7.5e-17  48_[1]_186
+sequence302                       7.5e-17  48_[1]_207
+sequence279                       7.5e-17  48_[1]_207
+sequence256                       7.5e-17  48_[1]_207
+sequence255                       7.5e-17  48_[1]_205
+sequence249                       7.5e-17  14_[1]_178
+sequence248                       7.5e-17  48_[1]_205
+sequence235                       7.5e-17  48_[1]_207
+sequence232                       7.5e-17  48_[1]_207
+sequence227                       7.5e-17  48_[1]_201
+sequence212                       7.5e-17  48_[1]_199
+sequence30                        7.5e-17  48_[1]_207
+sequence14                        7.5e-17  48_[1]_207
+sequence274                       8.4e-17  48_[1]_207
+sequence182                       9.4e-17  48_[1]_205
+sequence161                       9.4e-17  14_[1]_178
+sequence123                       9.4e-17  48_[1]_198
+sequence202                       1.3e-16  48_[1]_204
+sequence149                       1.3e-16  48_[1]_204
+sequence135                       1.3e-16  48_[1]_195
+sequence120                       1.3e-16  48_[1]_204
+sequence93                        1.3e-16  48_[1]_204
+sequence91                        1.3e-16  48_[1]_204
+sequence81                        1.3e-16  48_[1]_204
+sequence65                        1.3e-16  48_[1]_195
+sequence52                        1.3e-16  48_[1]_202
+sequence51                        1.3e-16  48_[1]_195
+sequence132                       2.5e-16  48_[1]_199
+sequence141                         3e-16  48_[1]_205
+sequence115                         3e-16  48_[1]_185
+sequence109                         3e-16  48_[1]_207
+sequence92                          3e-16  48_[1]_207
+sequence64                          3e-16  48_[1]_207
+sequence60                          3e-16  48_[1]_207
+sequence55                          3e-16  48_[1]_207
+sequence86                        4.1e-16  48_[1]_209
+sequence310                       5.6e-16  48_[1]_207
+sequence272                       5.6e-16  48_[1]_207
+sequence263                       5.6e-16  48_[1]_207
+sequence238                       5.6e-16  48_[1]_205
+sequence36                        1.2e-15  48_[1]_205
+sequence138                       1.8e-15  48_[1]_207
+sequence41                        2.2e-15  48_[1]_207
+sequence18                        2.2e-15  48_[1]_207
+sequence218                       4.7e-15  48_[1]_205
+sequence190                       4.7e-15  48_[1]_205
+sequence178                       4.7e-15  48_[1]_206
+sequence158                       4.7e-15  48_[1]_205
+sequence129                       7.4e-15  48_[1]_207
+sequence126                       7.4e-15  48_[1]_205
+sequence104                       7.4e-15  48_[1]_207
+sequence73                        7.4e-15  14_[1]_190
+sequence45                        7.4e-15  48_[1]_205
+sequence31                        7.4e-15  48_[1]_207
+sequence286                       1.4e-14  48_[1]_205
+sequence222                       1.9e-14  48_[1]_205
+sequence49                        1.9e-12  48_[1]_212
+sequence15                          1e-11  48_[1]_201
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG MEME-1 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG width=41 seqs=273
+sequence318              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence317              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence315              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence313              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence298              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence296              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence293              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence289              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence269              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence268              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence266              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence265              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence244              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence241              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence215              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence207              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence206              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence200              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence199              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence198              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence186              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence184              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence183              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence175              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence173              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence172              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence168              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence163              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence162              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence153              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence146              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence131              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence130              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence128              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence124              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence122              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence118              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence102              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence100              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence98               (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence90               (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence77               (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence76               (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence72               (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence71               (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence48               (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence42               (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence28               (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence25               (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence10               (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence3                (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence16               (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGTTTCACCTTCAG  1 
+sequence305              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTTAG  1 
+sequence301              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTTAG  1 
+sequence282              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTTAG  1 
+sequence253              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTTAG  1 
+sequence231              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTTAG  1 
+sequence170              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTTAG  1 
+sequence169              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTTAG  1 
+sequence155              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTTAG  1 
+sequence321              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCGTCAG  1 
+sequence320              (   49) TCCCTGAGACTCTCCTGTGCAGCGTCTGGATTCACCTTCAG  1 
+sequence309              (   49) TCCCTGAGACTCTCCTGTGCAGCGTCTGGATTCACCTTCAG  1 
+sequence299              (   49) TCCCTGAGACTCTCCTGTGCAGCGTCTGGATTCACCTTCAG  1 
+sequence295              (   49) TCCCTGAGACTCTCCTGTGCAGCGTCTGGATTCACCTTCAG  1 
+sequence275              (   49) TCCCTGAGACTCTCCTGTGCAGCGTCTGGATTCACCTTCAG  1 
+sequence273              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCGTCAG  1 
+sequence260              (   49) TCCCTGAGACTCTCCTGTGCAGCGTCTGGATTCACCTTCAG  1 
+sequence247              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCGTCAG  1 
+sequence237              (   49) TCCCTGAGACTCTCCTGTGCAGCGTCTGGATTCACCTTCAG  1 
+sequence195              (   49) TCCCTGAGACTCTCCTGTGCAGCGTCTGGATTCACCTTCAG  1 
+sequence194              (   49) TCCCTGAGACTCTCCTGTGCAGGCTCTGGATTCACCTTCAG  1 
+sequence174              (   49) TCCCTGAGACTCTCCTGTGCAGGCTCTGGATTCACCTTCAG  1 
+sequence156              (   49) TCCCTGAGACTCTCCTGTGCAGGCTCTGGATTCACCTTCAG  1 
+sequence154              (   49) TCCCTGAGACTCTCCTGTGCAGCGTCTGGATTCACCTTCAG  1 
+sequence75               (   49) TCCCTGAGACTCTCCTGTGCAGCGTCTGGATTCACCTTCAG  1 
+sequence62               (   49) TCCCTGAGACTCTCCTGTGCAGCGTCTGGATTCACCTTCAG  1 
+sequence46               (   49) TCCCTGAGACTCTCCTGTGCAGCGTCTGGATTCACCTTCAG  1 
+sequence44               (   49) TCCCTGAGACTCTCCTGTGCAGCGTCTGGATTCACCTTCAG  1 
+sequence9                (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCGTCAG  1 
+sequence7                (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCGTCAG  1 
+sequence2                (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCGTCAG  1 
+sequence285              (   49) TCCCTGAGACTCTCCTGTTCAGCCTCTGGATTCACCTTCAG  1 
+sequence245              (   49) TCCCTGAGACTCTCCTGTTCAGCCTCTGGATTCACCTTCAG  1 
+sequence240              (   49) TCCCTGAGACTCTCCTGTTCAGCCTCTGGATTCACCTTCAG  1 
+sequence12               (   49) TCCCTGAAACTCTCCTGTGCAGCCTCTGGGTTCACCTTCAG  1 
+sequence5                (   49) TCCCTGAAACTCTCCTGTGCAGCCTCTGGGTTCACCTTCAG  1 
+sequence270              (   49) TCCCTGAGACACTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence112              (   49) TCCCTGAGACACTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence143              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGTATTCACCTTCAG  1 
+sequence223              (   49) GCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence216              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGCATTCACCTTCAG  1 
+sequence224              (   49) TCCCTGAGACTCTCCTGTGCAGCCTGTGGATTCACCTTCAG  1 
+sequence261              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGGTTCACCGTCAG  1 
+sequence148              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGGTTCACCGTCAG  1 
+sequence136              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGGTTCACCGTCAG  1 
+sequence119              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGGTTCACCGTCAG  1 
+sequence94               (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGGTTCACCGTCAG  1 
+sequence319              (   49) TCCCTTAGACTCTCCTGTGCAGCCTCTGGATTCACTTTCAG  1 
+sequence297              (   49) TCCCTTAGACTCTCCTGTGCAGCCTCTGGATTCACTTTCAG  1 
+sequence262              (   49) TCCCTTAGACTCTCCTGTGCAGCCTCTGGATTCACTTTCAG  1 
+sequence246              (   49) TCCCTTAGACTCTCCTGTGCAGCCTCTGGATTCACTTTCAG  1 
+sequence239              (   49) TCCCTTAGACTCTCCTGTGCAGCCTCTGGATTCACTTTCAG  1 
+sequence304              (   49) TCTCTGAGACTCTCATGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence303              (   49) TCTCTGAGACTCTCATGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence258              (   49) TCTCTGAGACTCTCATGTGCAGCCTCTGGATTCACCTTCAG  1 
+sequence40               (   49) TCCCTGAGACTCTCCTGTACAGCTTCTGGATTCACCTTTGG  1 
+sequence33               (   49) TCCCTGAGACTCTCCTGTACAGCTTCTGGATTCACCTTTGG  1 
+sequence13               (   49) TCCCTGAGACTCTCCTGTACAGCTTCTGGATTCACCTTTGG  1 
+sequence8                (   49) TCCCTGAGACTCTCCTGTACAGCTTCTGGATTCACCTTTGG  1 
+sequence1                (   49) TCCCTGAGACTCTCCTGTACAGCTTCTGGATTCACCTTTGG  1 
+sequence324              (   49) TCTCTGAGACTCTCATGTGCTGCCTCTGGATTCACCTTCAG  1 
+sequence271              (   49) TCCCTTAGACTCTCCTGTGCAGCCTCTGGTTTCACTTTCAG  1 
+sequence229              (   49) TCCCTGAGACTCTCCTGTGCAGACTCTGGATTAACCTTCAG  1 
+sequence213              (   49) TCCCTGAGACTCTCCTGTGCAGACTCTGGATTAACCTTCAG  1 
+sequence193              (   49) TCCCTGAGACTCTCCTGTGCAGACTCTGGATTAACCTTCAG  1 
+sequence38               (   49) TTCCTGAGACTCTCCTGTGTAGCCTCTGGATTCACCTTCAG  1 
+sequence24               (   49) TTCCTGAGACTCTCCTGTGTAGCCTCTGGATTCACCTTCAG  1 
+sequence311              (   49) TCCCTGAGACTGTCCTGTCCAGCCTCTGGATTCACCTTCAG  1 
+sequence26               (   49) TCCCTGAGACCCTCCTGTGCAGCCTCTGGATTCGCCTTCAG  1 
+sequence21               (   49) TCCCTGAGACCCTCCTGTGCAGCCTCTGGATTCGCCTTCAG  1 
+sequence197              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTTGA  1 
+sequence97               (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTTGA  1 
+sequence96               (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTTGA  1 
+sequence67               (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTTGA  1 
+sequence142              (   49) ACCCTGTCCCTCACCTGCGCTGTCTCTGGTTACTCCATCAG  1 
+sequence113              (   49) ACCCTGTCCCTCACCTGCGCTGTCTCTGGTTACTCCATCAG  1 
+sequence111              (   49) ACCCTGTCCCTCACCTGCGCTGTCTCTGGTTACTCCATCAG  1 
+sequence85               (   49) ACCCTGTCCCTCACCTGCGCTGTCTCTGGTTACTCCATCAG  1 
+sequence58               (   49) ACCCTGTCCCTCACCTGCGCTGTCTCTGGTTACTCCATCAG  1 
+sequence57               (   49) ACCCTGTCCCTCACCTGCGCTGTCTCTGGTTACTCCATCAG  1 
+sequence23               (   49) ACCCTGTCCCTCACCTGCGCTGTCTCTGGTTACTCCATCAG  1 
+sequence37               (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTTACTCCATCAG  1 
+sequence166              (   49) ACCCTGTCCCTCACCTGTACTGTCTCTGGTGGCTCCATCAG  1 
+sequence105              (   49) ACCCTGTCCCTCACCTGCGCTGTCTCTGGTGGCTCCATCAG  1 
+sequence101              (   49) ACCCTGTCCCTCACCTGCGCTGTCTCTGGTGGCTCCATCAG  1 
+sequence74               (   49) ACCCTGTCCCTCACCTGCGCTGTCTCTGGTGGCTCCATCAG  1 
+sequence43               (   49) ACCCTGTCCCTCACCTGCGCTGTCTCTGGTGGCTCCATCAG  1 
+sequence32               (   49) ACCCTGTCCCTCACCTGCGCTGTCTCTGGTGGCTCCATCAG  1 
+sequence27               (   49) ACCCTGTCCCTCACCTGCGCTGTCTCTGGTGGCTCCATCAG  1 
+sequence17               (   49) ACCCTGTCCCTCACCTGCGCTGTCTCTGGTGGCTCCATCAG  1 
+sequence6                (   49) ACCCTGTCCCTCACCTGCGCTGTCTCTGGTGGCTCCATCAG  1 
+sequence308              (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG  1 
+sequence300              (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG  1 
+sequence283              (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG  1 
+sequence276              (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG  1 
+sequence259              (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG  1 
+sequence220              (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG  1 
+sequence210              (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG  1 
+sequence209              (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG  1 
+sequence204              (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG  1 
+sequence196              (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG  1 
+sequence189              (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG  1 
+sequence159              (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG  1 
+sequence152              (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG  1 
+sequence151              (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG  1 
+sequence145              (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG  1 
+sequence139              (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG  1 
+sequence137              (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG  1 
+sequence127              (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG  1 
+sequence117              (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG  1 
+sequence103              (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG  1 
+sequence99               (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG  1 
+sequence95               (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG  1 
+sequence89               (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG  1 
+sequence88               (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG  1 
+sequence83               (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG  1 
+sequence47               (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG  1 
+sequence284              (   49) TCCCTTAGACTCTCCTGTGCAGCCTCTGGATTCACTTGCAG  1 
+sequence264              (   49) TCCCTTAGACTCTCCTGTGCAGCCTCTGGATTCACTTGCAG  1 
+sequence39               (   49) TCCCTTAGACTCTCCTGTGCAGCCTCTGGATTCACTTGCAG  1 
+sequence228              (   49) TCCCCGAGACTCTCCTGTGCAGCCTCTCAATTCACCTTCAG  1 
+sequence219              (   49) TCCCCGAGACTCTCCTGTGCAGCCTCTCAATTCACCTTCAG  1 
+sequence211              (   49) TCCCCGAGACTCTCCTGTGCAGCCTCTCAATTCACCTTCAG  1 
+sequence191              (   49) TCCCCGAGACTCTCCTGTGCAGCCTCTCAATTCACCTTCAG  1 
+sequence177              (   49) TCCCCGAGACTCTCCTGTGCAGCCTCTCAATTCACCTTCAG  1 
+sequence288              (   49) TCCCTGAGACTGTCCTGTCCAGACTCTGGATTCACCTTCAG  1 
+sequence201              (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCGTCAG  1 
+sequence147              (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCGTCAG  1 
+sequence107              (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCGTCAG  1 
+sequence78               (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCGTCAG  1 
+sequence70               (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGCTCCGTCAG  1 
+sequence278              (   49) TCAGTGAAGGTCTCCTGCAAGGCTTCTGGAGGCACCTTCAG  1 
+sequence252              (   49) TCAGTGAAGGTCTCCTGCAAGGCTTCTGGAGGCACCTTCAG  1 
+sequence125              (   49) ACCCTGTCCCTCACCTGCGCTGTCTATGGTGGCTCCATCAG  1 
+sequence312              (   49) TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACACCTTCAC  1 
+sequence294              (   49) TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACACCTTCAC  1 
+sequence291              (   49) TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACACCTTCAC  1 
+sequence290              (   49) TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACACCTTCAC  1 
+sequence287              (   49) TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACACCTTCAC  1 
+sequence267              (   49) TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACACCTTCAC  1 
+sequence243              (   49) TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACACCTTCAC  1 
+sequence242              (   49) TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACACCTTCAC  1 
+sequence230              (   49) TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACACCTTCAC  1 
+sequence214              (   15) TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACACCTTCAC  1 
+sequence188              (   49) TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACACCTTCAC  1 
+sequence165              (   49) TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACACCTTCAC  1 
+sequence185              (   49) ACCCTGTCCCTCATCTGCGCTGTCTCTGGTGACTCCATCAG  1 
+sequence181              (   49) ACCCTGTCCCTCATCTGCGCTGTCTCTGGTGACTCCATCAG  1 
+sequence144              (   49) ACCCTGTCCCTCATCTGCGCTGTCTCTGGTGACTCCATCAG  1 
+sequence140              (   49) ACCCTGTCCCTCATCTGCGCTGTCTCTGGTGACTCCATCAG  1 
+sequence114              (   49) ACCCTGTCCCTCATCTGCGCTGTCTCTGGTGACTCCATCAG  1 
+sequence110              (   49) ACCCTGTCCCTCATCTGCGCTGTCTCTGGTGACTCCATCAG  1 
+sequence87               (   49) ACCCTGTCCCTCATCTGCGCTGTCTCTGGTGACTCCATCAG  1 
+sequence84               (   49) ACCCTGTCCCTCACCTGCGTTGTCTCTGGTGGCTCCATCAG  1 
+sequence61               (   49) ACCCTGTCCCTCATCTGCGCTGTCTCTGGTGACTCCATCAG  1 
+sequence59               (   49) ACCCTGTCCCTCACCTGCGTTGTCTCTGGTGGCTCCATCAG  1 
+sequence56               (   49) ACCCTGTCCCTCACCTGCGTTGTCTCTGGTGGCTCCATCAG  1 
+sequence54               (   49) ACCCTGTCCCTCATCTGCGCTGTCTCTGGTGACTCCATCAG  1 
+sequence208              (   49) TCAGTGAGGATCTCCTGCAAGGCTTCTGGATACACCTTCAC  1 
+sequence35               (   49) TCCCTGCGACCCTCCTGTGCAGCCTCTGGATTCGCCTTCAG  1 
+sequence34               (   49) TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATTCACCTTTAC  1 
+sequence20               (   49) TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATTCACCTTTAC  1 
+sequence217              (   49) TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTCTGA  1 
+sequence322              (   49) TCGGTGAAGGTCTCCTGCAAGGCTTCTGGAGGCACCTTCAG  1 
+sequence307              (   49) TCGGTGAAGGTCTCCTGCAAGGCTTCTGGAGGCACCTTCAG  1 
+sequence302              (   49) TCGGTGAAGGTCTCCTGCAAGGCTTCTGGAGGCACCTTCAG  1 
+sequence279              (   49) TCGGTGAAGGTCTCCTGCAAGGCTTCTGGAGGCACCTTCAG  1 
+sequence256              (   49) TCGGTGAAGGTCTCCTGCAAGGCTTCTGGAGGCACCTTCAG  1 
+sequence255              (   49) TCGGTGAAGGTCTCCTGCAAGGCTTCTGGAGGCACCTTCAG  1 
+sequence249              (   15) TCGGTGAAGGTCTCCTGCAAGGCTTCTGGAGGCACCTTCAG  1 
+sequence248              (   49) ACCCCGTCCCTCACCTGCACTGTCTCTGGTGGCTCCATCAG  1 
+sequence235              (   49) TCGGTGAAGGTCTCCTGCAAGGCTTCTGGAGGCACCTTCAG  1 
+sequence232              (   49) TCGGTGAAGGTCTCCTGCAAGGCTTCTGGAGGCACCTTCAG  1 
+sequence227              (   49) ACCCTGTCCCTCACCTGCACTGTCTCTGGTGGATCCATCAG  1 
+sequence212              (   49) ACCCTGTCCCTCACCTGCGCTGTCTATGGTGGGACCTTCAG  1 
+sequence30               (   49) TCGGTGAAGGTCTCCTGCAAGGCTTCTGGAGGCACCTTCAG  1 
+sequence14               (   49) TCGGTGAAGGTCTCCTGCAAGGCTTCTGGAGGCACCTTCAG  1 
+sequence274              (   49) TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACACCATCAC  1 
+sequence182              (   49) ACAGTGAAAATCTCCTGCAAGGTTTCTGGATACACCTTCAC  1 
+sequence161              (   15) ACAGTGAAAATCTCCTGCAAGGTTTCTGGATACACCTTCAC  1 
+sequence123              (   49) ACCCTGTCCCTCACCTGCGCTATCTCTGGTGGCTCCATCAG  1 
+sequence202              (   49) ACCCTGTCCCTCACCTGCGCTGTCTATGGTGGGTCCTTCAG  1 
+sequence149              (   49) ACCCTGTCCCTCACCTGCGCTGTCTATGGTGGGTCCTTCAG  1 
+sequence135              (   49) ACCCTGTCCCTCACCTGCGCTGTCTATGGTGGGTCCTTCAG  1 
+sequence120              (   49) ACCCTGTCCCTCACCTGCGCTGTCTATGGTGGGTCCTTCAG  1 
+sequence93               (   49) ACCCTGTCCCTCACCTGCGCTGTCTATGGTGGGTCCTTCAG  1 
+sequence91               (   49) ACCCTGTCCCTCACCTGCGCTGTCTATGGTGGGTCCTTCAG  1 
+sequence81               (   49) ACCCTGTCCCTCACCTGCGCTGTCTATGGTGGGTCCTTCAG  1 
+sequence65               (   49) ACCCTGTCCCTCACCTGCGCTGTCTATGGTGGGTCCTTCAG  1 
+sequence52               (   49) ACCCTGTCCCTCACCTGCGCTGTCTATGGTGGGTCCTTCAG  1 
+sequence51               (   49) ACCCTGTCCCTCACCTGCGCTGTCTATGGTGGGTCCTTCAG  1 
+sequence132              (   49) ACCCTGTCCCTCACCTGCACTGTCACTGGTGGCTCCATCAG  1 
+sequence141              (   49) TCAGTGAAGGTTTCCTGCAAGGCTTCTGGATACACCTTCAC  1 
+sequence115              (   49) TCAGTGAAGGTTTCCTGCAAGGCTTCTGGATACACCTTCAC  1 
+sequence109              (   49) TCAGTGAAGGTTTCCTGCAAGGCTTCTGGATACACCTTCAC  1 
+sequence92               (   49) TCAGTGAAGGTTTCCTGCAAGGCTTCTGGATACACCTTCAC  1 
+sequence64               (   49) TCAGTGAAGGTTTCCTGCAAGGCTTCTGGATACACCTTCAC  1 
+sequence60               (   49) TCAGTGAAGGTTTCCTGCAAGGCTTCTGGATACACCTTCAC  1 
+sequence55               (   49) TCAGTGAAGGTTTCCTGCAAGGCTTCTGGATACACCTTCAC  1 
+sequence86               (   49) TTCCTGAGACTCTCCTGTGTAGCCTCTAGATTCGCCTTCAG  1 
+sequence310              (   49) TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACATCTTCAC  1 
+sequence272              (   49) TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACATCTTCAC  1 
+sequence263              (   49) TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACATCTTCAC  1 
+sequence238              (   49) TCAGTGAAGGTCTCCTGCAAGGCTTCTGGATACATCTTCAC  1 
+sequence36               (   49) TCAGTGAAGGTCTCCTTCAAGGCTTCTGGATACACCTTCAC  1 
+sequence138              (   49) TCAGTGAAGGTCTCCTGCAAGGCTTCCGGATACACCTTCAC  1 
+sequence41               (   49) TCAGTGAAGGTTTCCTGCAAGGCATCTGGATACACCTTCAC  1 
+sequence18               (   49) TCAGTGAAGGTTTCCTGCAAGGCATCTGGATACACCTTCAC  1 
+sequence218              (   49) TCTCTGAGGATCTCCTGTAAGGGTTCTGGATACAGCTTTAC  1 
+sequence190              (   49) TCTCTGAGGATCTCCTGTAAGGGTTCTGGATACAGCTTTAC  1 
+sequence178              (   49) TCTCTGAGGATCTCCTGTAAGGGTTCTGGATACAGCTTTAC  1 
+sequence158              (   49) TCTCTGAGGATCTCCTGTAAGGGTTCTGGATACAGCTTTAC  1 
+sequence129              (   49) TCTCTGAAGATCTCCTGTAAGGGTTCTGGATACAGCTTTAC  1 
+sequence126              (   49) TCTCTGAAGATCTCCTGTAAGGGTTCTGGATACAGCTTTAC  1 
+sequence104              (   49) TCTCTGAAGATCTCCTGTAAGGGTTCTGGATACAGCTTTAC  1 
+sequence73               (   15) TCTCTGAAGATCTCCTGTAAGGGTTCTGGATACAGCTTTAC  1 
+sequence45               (   49) TCTCTGAAGATCTCCTGTAAGGGTTCTGGATACAGCTTTAC  1 
+sequence31               (   49) TCAGTGAAGGTTTCCTGCAAGGCATCTGGATACACCTTCAA  1 
+sequence286              (   49) TCTCTGAGGATCTCCTGTAAGACTTCTGGATACAGCTTTAC  1 
+sequence222              (   49) TACCTAAAACTCTCCGGTGCAGCCTCTGGATTCACCGTCGG  1 
+sequence49               (   49) ACCCTCACGCTGACCTGCACCGTCTCTGGGTTCTCACTCAG  1 
+sequence15               (   49) ACCCTCACACTGACCTGCGCCTTCTCTGGGTTCTCACTCAG  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG MEME-1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 20 w= 41 n= 81574 bayes= 9.58875 E= 2.4e-2812 
+    31  -1039    250    267    241   -615    187    287    242    346    245    -27    386    298    290    645    174    468     78     81 
+  -563    193    607    663    620   -840    552    723    611    732    629    252    585    592    650    719   -478    697    394    431 
+   -83    159    257    277    250   -287    194    298    251    356    257    -16    396    309    300    657   -202    480     84     89 
+ -1263    169    125     44     48    -79     56    -26     62    123   -114   -301    155     49    108    156  -1313     43    -30    -66 
+ -1189   -354    128     53     56  -1217     59     -3     68    133    -88   -287    165     60    115    213    222     84    -27    -60 
+  -546   -512    468    435    319    168    324    366    435    409    319    130    434    390    439    673   -268    502    201    201 
+   160   -606    254    272    246   -905    191    293    246    351    251    -21    391    304    295    651     41    475     81     85 
+   -25     15    246    262    237     79    183    282    237    341    240    -32    381    293    286    639   -885    462     75     77 
+   112     12    249    266    240    -54    186    286    241    345    244    -28    385    297    290    644   -880    467     77     80 
+  -228    162    235    247    222    -89    172    264    223    326    221    -48    365    277    272    620   -904    443     65     65 
+  -478   -453    236    247    223   -936    172    268    225    327    223    -47    364    278    273    620    222    444     65     66 
+  -916    189    176    153    137   -433    110    153    142    230     94   -167    256    166    189    457   -251    293     11     -4 
+    27  -1126    202    197    177   -995    137    206    180    276    159   -104    314    224    228    552    177    378     35     27 
+ -1197    192    135     71     69  -1220     68     36     79    149    -53   -279    167     69    125    204   -267     93    -22    -52 
+  -405    194    320    354    317  -1078    262    405    311    424    312    -44    320    297    352    450   -970    396    123    142 
+ -1238  -1410    126     47     50   -632     57    -20     64    125   -106   -297    158     53    110    174    225     55    -29    -64 
+ -1206  -1400    150     77     59    174     69      1     92    135    -80   -259    166     69    130    202   -583     76    -20    -53 
+ -1181     83    128     54     57  -1215     60     -2     68    133    -85   -286    166     61    115    218    138     88    -27    -59 
+    61   -509    257    277    250    105    194    298    251    356    257    -16    396    309    300    657   -419    480     85     89 
+   -18    158    250    268    242   -910    187    289    242    347    246    -26    387    299    291    646   -323    470     78     82 
+   108   -509    257    277    251    -52    194    299    251    356    257    -15    396    309    300    657     42    480     85     89 
+  -479  -1060    482    443    312    172    331    356    446    397    307    136    417    384    446    642   -571    474    207    205 
+  -386    133    257    276    250   -275    194    297    250    355    256    -17    395    308    299    656     48    479     84     88 
+  -423    150    257    276    249   -263    193    297    250    355    255    -17    395    308    299    656      4    479     84     88 
+  -594  -1300    143     89     84  -1149     76     61     94    169     -6   -236    203    104    141    350    225    192    -15    -41 
+  -240    189    234    245    220   -621    171    266    220    323    215    -63    348    264    268    594   -925    423     61     62 
+ -1200   -612    127     51     55  -1221     59     -6     67    131    -92   -290    163     58    114    204    225     77    -28    -61 
+  -568   -381    396    359    251    171    258    288    361    339    240     53    364    316    367    589   -943    420    139    135 
+  -360   -610    536    496    357    170    380    404    500    441    356    189    460    433    497    688   -568    519    254    252 
+   152  -1033    254    272    245   -316    190    292    246    351    251    -21    391    303    295    651     44    474     81     85 
+ -1179  -1386    129     54     56     -1     60     -5     69    133    -86   -285    166     62    115    219    175     86    -27    -61 
+   -13  -1034    253    271    245    -18    190    291    245    350    250    -22    390    303    294    650    131    473     80     84 
+  -392    188    219    223    200   -288    155    237    202    302    192    -76    339    251    251    586   -936    411     50     46 
+   157  -1034    253    271    245   -430    190    292    245    350    250    -22    390    303    294    650     42    473     80     84 
+  -917    189    172    145    130   -302    105    141    136    223     84   -171    254    162    183    456   -383    290      8     -9 
+  -484    190    372    415    377   -924    315    466    371    487    383     43    417    378    413    630   -274    511    175    198 
+    -8   -509    257    277    251   -225    194    298    251    356    257    -16    396    309    300    657    175    480     85     89 
+  -910   -611    170    142    128   -474    103    136    135    220     82   -168    257    164    182    464    223    294      7    -10 
+ -1198    180    127     51     55  -1220     59     -7     67    131    -92   -290    163     58    113    204    -93     78    -28    -61 
+   202  -1181    178    157    141   -288    112    155    147    236    105   -150    274    181    195    492  -1028    320     14     -1 
+  -336    -71    239    246    218    146    171    259    225    321    216    -50    360    273    271    612   -911    436     64     63 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG MEME-1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 20 w= 41 nsites= 273 E= 2.4e-2812 
+ 0.293040  0.000000  0.000000  0.000000  0.000000  0.003663  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.703297  0.000000  0.000000  0.000000 
+ 0.003663  0.985348  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.010989  0.000000  0.000000  0.000000 
+ 0.131868  0.776557  0.000000  0.000000  0.000000  0.040293  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.051282  0.000000  0.000000  0.000000 
+ 0.000000  0.827839  0.000000  0.000000  0.000000  0.172161  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000 
+ 0.000000  0.021978  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.978022  0.000000  0.000000  0.000000 
+ 0.003663  0.007326  0.000000  0.000000  0.000000  0.956044  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.032967  0.000000  0.000000  0.000000 
+ 0.717949  0.003663  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.278388  0.000000  0.000000  0.000000 
+ 0.197802  0.285714  0.000000  0.000000  0.000000  0.516484  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000 
+ 0.516484  0.278388  0.000000  0.000000  0.000000  0.205128  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000 
+ 0.047619  0.791209  0.000000  0.000000  0.000000  0.161172  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000 
+ 0.007326  0.010989  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.981685  0.000000  0.000000  0.000000 
+ 0.000000  0.948718  0.000000  0.000000  0.000000  0.014652  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.036630  0.000000  0.000000  0.000000 
+ 0.285714  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.714286  0.000000  0.000000  0.000000 
+ 0.000000  0.967033  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.032967  0.000000  0.000000  0.000000 
+ 0.014652  0.985348  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000 
+ 0.000000  0.000000  0.000000  0.000000  0.000000  0.003663  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.996337  0.000000  0.000000  0.000000 
+ 0.000000  0.000000  0.000000  0.000000  0.000000  0.996337  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.003663  0.000000  0.000000  0.000000 
+ 0.000000  0.454212  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.545788  0.000000  0.000000  0.000000 
+ 0.362637  0.007326  0.000000  0.000000  0.000000  0.619048  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.010989  0.000000  0.000000  0.000000 
+ 0.208791  0.769231  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.021978  0.000000  0.000000  0.000000 
+ 0.501832  0.007326  0.000000  0.000000  0.000000  0.208791  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.282051  0.000000  0.000000  0.000000 
+ 0.007326  0.000000  0.000000  0.000000  0.000000  0.989011  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.003663  0.000000  0.000000  0.000000 
+ 0.014652  0.648352  0.000000  0.000000  0.000000  0.043956  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.293040  0.000000  0.000000  0.000000 
+ 0.010989  0.725275  0.000000  0.000000  0.000000  0.047619  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.216117  0.000000  0.000000  0.000000 
+ 0.003663  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.996337  0.000000  0.000000  0.000000 
+ 0.043956  0.952381  0.000000  0.000000  0.000000  0.003663  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000 
+ 0.000000  0.003663  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.996337  0.000000  0.000000  0.000000 
+ 0.003663  0.018315  0.000000  0.000000  0.000000  0.978022  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000 
+ 0.018315  0.003663  0.000000  0.000000  0.000000  0.974359  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.003663  0.000000  0.000000  0.000000 
+ 0.681319  0.000000  0.000000  0.000000  0.000000  0.032967  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.285714  0.000000  0.000000  0.000000 
+ 0.000000  0.000000  0.000000  0.000000  0.000000  0.296703  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.703297  0.000000  0.000000  0.000000 
+ 0.216117  0.000000  0.000000  0.000000  0.000000  0.263736  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.520147  0.000000  0.000000  0.000000 
+ 0.014652  0.945055  0.000000  0.000000  0.000000  0.040293  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000 
+ 0.703297  0.000000  0.000000  0.000000  0.000000  0.014652  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.282051  0.000000  0.000000  0.000000 
+ 0.000000  0.948718  0.000000  0.000000  0.000000  0.036630  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.014652  0.000000  0.000000  0.000000 
+ 0.007326  0.959707  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.032967  0.000000  0.000000  0.000000 
+ 0.223443  0.007326  0.000000  0.000000  0.000000  0.062271  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.706960  0.000000  0.000000  0.000000 
+ 0.000000  0.003663  0.000000  0.000000  0.000000  0.010989  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.985348  0.000000  0.000000  0.000000 
+ 0.000000  0.890110  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.109890  0.000000  0.000000  0.000000 
+ 0.959707  0.000000  0.000000  0.000000  0.000000  0.040293  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000 
+ 0.021978  0.157509  0.000000  0.000000  0.000000  0.820513  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif TCCCTGAGACTCTCCTGTGCAGCCTCTGGATTCACCTTCAG MEME-1 regular expression
+--------------------------------------------------------------------------------
+[TA]CCCTG[AT][GC][ACG]CTC[TA]CCTG[TC][GA][CA][ATG]G[CT][CT]TCTGG[AT][TG][TGA]C[AT]CC[TA]TCAG
+--------------------------------------------------------------------------------
+
+
+
+
+Time 224.98 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+SUMMARY OF MOTIFS
+********************************************************************************
+
+--------------------------------------------------------------------------------
+	Combined block diagrams: non-overlapping sites with p-value < 0.0001
+--------------------------------------------------------------------------------
+SEQUENCE NAME            COMBINED P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+sequence0                        1.61e-02  168_[1(8.68e-05)]_18
+sequence1                        1.45e-17  48_[1(5.55e-20)]_213
+sequence2                        6.85e-20  48_[1(2.72e-22)]_203
+sequence3                        2.69e-22  48_[1(1.06e-24)]_94_[1(8.42e-05)]_\
+    69
+sequence4                        4.78e-07  48_[1(1.80e-09)]_216
+sequence5                        4.81e-19  48_[1(1.84e-21)]_213
+sequence6                        5.82e-16  48_[1(2.25e-18)]_210
+sequence7                        6.75e-20  48_[1(2.72e-22)]_199
+sequence8                        1.45e-17  48_[1(5.55e-20)]_213
+sequence9                        6.85e-20  48_[1(2.72e-22)]_203
+sequence10                       2.69e-22  48_[1(1.06e-24)]_94_[1(8.42e-05)]_\
+    69
+sequence11                       4.78e-07  48_[1(1.80e-09)]_216
+sequence12                       4.81e-19  48_[1(1.84e-21)]_213
+sequence13                       1.45e-17  48_[1(5.55e-20)]_213
+sequence14                       1.93e-14  48_[1(7.52e-17)]_207
+sequence15                       2.61e-09  48_[1(1.04e-11)]_24_[1(6.37e-05)]_\
+    35_[1(8.95e-05)]_60
+sequence16                       1.24e-21  48_[1(4.73e-24)]_213
+sequence17                       5.71e-16  48_[1(2.25e-18)]_151_[1(5.11e-05)]_\
+    13
+sequence18                       5.66e-13  48_[1(2.21e-15)]_207
+sequence19                       9.92e-11  45_[1(3.92e-13)]_207
+sequence20                       1.54e-14  48_[1(6.02e-17)]_207
+sequence21                       1.07e-16  48_[1(4.22e-19)]_204
+sequence22                       1.31e-12  48_[1(5.12e-15)]_207
+sequence23                       1.91e-16  48_[1(7.51e-19)]_148_[1(8.68e-05)]_\
+    16
+sequence24                       5.06e-17  48_[1(1.99e-19)]_205
+sequence25                       2.70e-22  48_[1(1.06e-24)]_43_[1(6.37e-05)]_\
+    121
+sequence26                       1.02e-16  48_[1(4.22e-19)]_193
+sequence27                       5.82e-16  48_[1(2.25e-18)]_151_[1(3.83e-05)]_\
+    18
+sequence28                       2.78e-22  48_[1(1.06e-24)]_213
+sequence29                       4.64e-07  48_[1(1.80e-09)]_24_[1(6.37e-05)]_\
+    35_[1(8.16e-05)]_10_[1(5.28e-05)]_16
+sequence30                       1.93e-14  48_[1(7.52e-17)]_207
+sequence31                       1.88e-12  48_[1(7.36e-15)]_207
+sequence32                       5.82e-16  48_[1(2.25e-18)]_210
+sequence33                       1.45e-17  48_[1(5.55e-20)]_213
+sequence34                       1.54e-14  48_[1(6.02e-17)]_207
+sequence35                       9.59e-15  48_[1(3.82e-17)]_202
+sequence36                       3.15e-13  48_[1(1.24e-15)]_205
+sequence37                       2.52e-16  48_[1(9.94e-19)]_148_[1(8.68e-05)]_\
+    16
+sequence38                       5.14e-17  48_[1(1.99e-19)]_209
+sequence39                       1.13e-15  48_[1(4.32e-18)]_213
+sequence40                       1.45e-17  48_[1(5.55e-20)]_213
+sequence41                       5.66e-13  48_[1(2.21e-15)]_207
+sequence42                       2.78e-22  48_[1(1.06e-24)]_213
+sequence43                       5.55e-16  48_[1(2.25e-18)]_198
+sequence44                       6.96e-20  48_[1(2.72e-22)]_97_[1(5.45e-05)]_\
+    69
+sequence45                       1.87e-12  48_[1(7.36e-15)]_205
+sequence46                       6.96e-20  48_[1(2.72e-22)]_97_[1(5.45e-05)]_\
+    69
+sequence47                       7.26e-16  48_[1(2.93e-18)]_145_[1(5.11e-05)]_\
+    13
+sequence48                       2.72e-22  48_[1(1.06e-24)]_97_[1(3.71e-05)]_\
+    69
+sequence49                       4.84e-10  48_[1(1.85e-12)]_24_[1(6.37e-05)]_\
+    86_[1(7.68e-05)]_20
+sequence50                       9.51e-03  168_[1(5.11e-05)]_18
+sequence51                       3.17e-14  48_[1(1.30e-16)]_195
+sequence52                       3.26e-14  48_[1(1.30e-16)]_202
+sequence53                       1.99e-02  227
+sequence54                       8.42e-15  48_[1(3.41e-17)]_198
+sequence55                       7.77e-14  48_[1(3.04e-16)]_207
+sequence56                       8.72e-15  48_[1(3.41e-17)]_207
+sequence57                       1.92e-16  48_[1(7.51e-19)]_207
+sequence58                       1.92e-16  48_[1(7.51e-19)]_207
+sequence59                       8.72e-15  48_[1(3.41e-17)]_207
+sequence60                       7.77e-14  48_[1(3.04e-16)]_207
+sequence61                       8.72e-15  48_[1(3.41e-17)]_207
+sequence62                       6.96e-20  48_[1(2.72e-22)]_97_[1(5.45e-05)]_\
+    69
+sequence63                       4.31e-02  221
+sequence64                       7.77e-14  48_[1(3.04e-16)]_207
+sequence65                       3.17e-14  48_[1(1.30e-16)]_195
+sequence66                       3.08e-02  227
+sequence67                       1.26e-16  48_[1(4.88e-19)]_18_[1(8.68e-05)]_\
+    38_[1(4.95e-05)]_71
+sequence68                       6.99e-08  48_[1(2.68e-10)]_24_[1(7.48e-06)]_\
+    147
+sequence69                       9.76e-11  45_[1(3.92e-13)]_203
+sequence70                       2.63e-15  48_[1(1.04e-17)]_145_[1(5.11e-05)]_\
+    18
+sequence71                       2.72e-22  48_[1(1.06e-24)]_97_[1(5.45e-05)]_\
+    69
+sequence72                       2.72e-22  48_[1(1.06e-24)]_97_[1(5.45e-05)]_\
+    69
+sequence73                       1.51e-12  14_[1(7.36e-15)]_190
+sequence74                       5.75e-16  48_[1(2.25e-18)]_207
+sequence75                       6.96e-20  48_[1(2.72e-22)]_97_[1(5.45e-05)]_\
+    69
+sequence76                       2.72e-22  48_[1(1.06e-24)]_97_[1(5.45e-05)]_\
+    69
+sequence77                       2.72e-22  48_[1(1.06e-24)]_97_[1(3.71e-05)]_\
+    69
+sequence78                       2.56e-15  48_[1(1.04e-17)]_198
+sequence79                       2.34e-13  48_[1(9.25e-16)]_204
+sequence80                       4.28e-09  48_[1(1.66e-11)]_151_[1(7.68e-05)]_\
+    17
+sequence81                       3.29e-14  48_[1(1.30e-16)]_204
+sequence82                       2.00e-02  228
+sequence83                       7.32e-16  48_[1(2.93e-18)]_201
+sequence84                       8.72e-15  48_[1(3.41e-17)]_207
+sequence85                       1.92e-16  48_[1(7.51e-19)]_207
+sequence86                       1.07e-13  48_[1(4.14e-16)]_209
+sequence87                       8.72e-15  48_[1(3.41e-17)]_207
+sequence88                       7.32e-16  48_[1(2.93e-18)]_201
+sequence89                       7.32e-16  48_[1(2.93e-18)]_201
+sequence90                       2.70e-22  48_[1(1.06e-24)]_97_[1(5.45e-05)]_\
+    67
+sequence91                       3.29e-14  48_[1(1.30e-16)]_204
+sequence92                       7.77e-14  48_[1(3.04e-16)]_207
+sequence93                       3.29e-14  48_[1(1.30e-16)]_204
+sequence94                       7.09e-18  48_[1(2.80e-20)]_204
+sequence95                       7.52e-16  48_[1(2.93e-18)]_208
+sequence96                       1.25e-16  48_[1(4.88e-19)]_97_[1(8.42e-05)]_\
+    69
+sequence97                       1.26e-16  48_[1(4.88e-19)]_18_[1(3.59e-05)]_\
+    38_[1(4.95e-05)]_71
+sequence98                       2.72e-22  48_[1(1.06e-24)]_97_[1(5.45e-05)]_\
+    69
+sequence99                       7.41e-16  48_[1(2.93e-18)]_145_[1(5.11e-05)]_\
+    18
+sequence100                      2.72e-22  48_[1(1.06e-24)]_97_[1(5.45e-05)]_\
+    69
+sequence101                      5.75e-16  48_[1(2.25e-18)]_207
+sequence102                      2.72e-22  48_[1(1.06e-24)]_97_[1(5.45e-05)]_\
+    69
+sequence103                      7.26e-16  48_[1(2.93e-18)]_199
+sequence104                      1.88e-12  48_[1(7.36e-15)]_207
+sequence105                      5.55e-16  48_[1(2.25e-18)]_198
+sequence106                      1.89e-09  48_[1(7.46e-12)]_205
+sequence107                      2.69e-15  48_[1(1.04e-17)]_151_[1(5.11e-05)]_\
+    18
+sequence108                      3.11e-09  48_[1(1.19e-11)]_24_[1(6.78e-05)]_\
+    86_[1(6.57e-05)]_20
+sequence109                      7.77e-14  48_[1(3.04e-16)]_207
+sequence110                      8.42e-15  48_[1(3.41e-17)]_198
+sequence111                      1.85e-16  48_[1(7.51e-19)]_198
+sequence112                      1.33e-18  48_[1(5.22e-21)]_97_[1(2.34e-05)]_\
+    67
+sequence113                      1.91e-16  48_[1(7.51e-19)]_148_[1(2.50e-05)]_\
+    16
+sequence114                      8.42e-15  48_[1(3.41e-17)]_198
+sequence115                      7.10e-14  48_[1(3.04e-16)]_185
+sequence116                      5.26e-09  48_[1(2.02e-11)]_24_[1(6.78e-05)]_\
+    86_[1(6.57e-05)]_20
+sequence117                      7.58e-16  48_[1(2.93e-18)]_210
+sequence118                      2.78e-22  48_[1(1.06e-24)]_213
+sequence119                      7.09e-18  48_[1(2.80e-20)]_94_[1(5.45e-05)]_\
+    69
+sequence120                      3.29e-14  48_[1(1.30e-16)]_204
+sequence121                      5.68e-14  48_[1(2.22e-16)]_207
+sequence122                      2.68e-22  48_[1(1.06e-24)]_203
+sequence123                      2.32e-14  48_[1(9.38e-17)]_198
+sequence124                      2.72e-22  48_[1(1.06e-24)]_97_[1(5.45e-05)]_\
+    69
+sequence125                      6.84e-15  48_[1(2.70e-17)]_204
+sequence126                      1.87e-12  48_[1(7.36e-15)]_205
+sequence127                      7.26e-16  48_[1(2.93e-18)]_199
+sequence128                      2.72e-22  48_[1(1.06e-24)]_97_[1(5.45e-05)]_\
+    69
+sequence129                      1.88e-12  48_[1(7.36e-15)]_207
+sequence130                      2.72e-22  48_[1(1.06e-24)]_97_[1(5.45e-05)]_\
+    69
+sequence131                      2.72e-22  48_[1(1.06e-24)]_97_[1(5.45e-05)]_\
+    69
+sequence132                      6.11e-14  48_[1(2.46e-16)]_199
+sequence133                      3.03e-02  224
+sequence134                      5.68e-14  48_[1(2.22e-16)]_207
+sequence135                      3.17e-14  48_[1(1.30e-16)]_195
+sequence136                      7.09e-18  48_[1(2.80e-20)]_18_[1(7.92e-05)]_\
+    35_[1(9.23e-05)]_69
+sequence137                      7.58e-16  48_[1(2.93e-18)]_151_[1(8.68e-05)]_\
+    18
+sequence138                      4.68e-13  48_[1(1.83e-15)]_207
+sequence139                      7.32e-16  48_[1(2.93e-18)]_201
+sequence140                      8.42e-15  48_[1(3.41e-17)]_198
+sequence141                      7.71e-14  48_[1(3.04e-16)]_205
+sequence142                      1.92e-16  48_[1(7.51e-19)]_207
+sequence143                      2.40e-18  48_[1(9.36e-21)]_97_[1(4.95e-05)]_\
+    69
+sequence144                      8.42e-15  48_[1(3.41e-17)]_148_[1(8.68e-05)]_\
+    9
+sequence145                      7.58e-16  48_[1(2.93e-18)]_210
+sequence146                      2.78e-22  48_[1(1.06e-24)]_213
+sequence147                      2.69e-15  48_[1(1.04e-17)]_151_[1(5.11e-05)]_\
+    18
+sequence148                      7.03e-18  48_[1(2.80e-20)]_94_[1(5.45e-05)]_\
+    67
+sequence149                      3.29e-14  48_[1(1.30e-16)]_204
+sequence150                      5.68e-14  48_[1(2.22e-16)]_207
+sequence151                      7.41e-16  48_[1(2.93e-18)]_204
+sequence152                      7.35e-16  48_[1(2.93e-18)]_145_[1(5.11e-05)]_\
+    16
+sequence153                      2.72e-22  48_[1(1.06e-24)]_97_[1(5.45e-05)]_\
+    69
+sequence154                      6.96e-20  48_[1(2.72e-22)]_97_[1(5.45e-05)]_\
+    69
+sequence155                      1.30e-20  48_[1(5.12e-23)]_97_[1(8.42e-05)]_\
+    67
+sequence156                      6.83e-20  48_[1(2.72e-22)]_94_[1(9.80e-05)]_\
+    67
+sequence157                      1.98e-01  165
+sequence158                      1.19e-12  48_[1(4.67e-15)]_205
+sequence159                      7.58e-16  48_[1(2.93e-18)]_210
+sequence160                      5.12e-09  48_[1(2.02e-11)]_24_[1(6.78e-05)]_\
+    86_[1(5.28e-05)]_13
+sequence161                      1.81e-14  14_[1(9.38e-17)]_178
+sequence162                      2.72e-22  48_[1(1.06e-24)]_97_[1(8.42e-05)]_\
+    69
+sequence163                      2.72e-22  48_[1(1.06e-24)]_207
+sequence164                      5.24e-09  48_[1(2.02e-11)]_24_[1(6.78e-05)]_\
+    86_[1(6.57e-05)]_19
+sequence165                      7.77e-15  48_[1(3.04e-17)]_207
+sequence166                      5.82e-16  48_[1(2.25e-18)]_210
+sequence167                      3.22e-12  48_[1(1.26e-14)]_207
+sequence168                      2.70e-22  48_[1(1.06e-24)]_97_[1(8.42e-05)]_\
+    67
+sequence169                      1.31e-20  48_[1(5.12e-23)]_97_[1(8.42e-05)]_\
+    69
+sequence170                      1.31e-20  48_[1(5.12e-23)]_97_[1(8.42e-05)]_\
+    69
+sequence171                      9.21e-03  162_[1(5.11e-05)]_18
+sequence172                      2.72e-22  48_[1(1.06e-24)]_97_[1(5.45e-05)]_\
+    69
+sequence173                      2.72e-22  48_[1(1.06e-24)]_207
+sequence174                      6.83e-20  48_[1(2.72e-22)]_94_[1(9.80e-05)]_\
+    67
+sequence175                      2.78e-22  48_[1(1.06e-24)]_213
+sequence176                      2.77e-12  14_[1(1.26e-14)]_205
+sequence177                      1.62e-15  48_[1(6.32e-18)]_207
+sequence178                      1.19e-12  48_[1(4.67e-15)]_206
+sequence179                      5.18e-09  48_[1(2.02e-11)]_24_[1(6.78e-05)]_\
+    86_[1(5.28e-05)]_16
+sequence180                      5.18e-09  48_[1(2.02e-11)]_24_[1(6.78e-05)]_\
+    86_[1(6.57e-05)]_16
+sequence181                      8.72e-15  48_[1(3.41e-17)]_207
+sequence182                      2.38e-14  48_[1(9.38e-17)]_205
+sequence183                      2.69e-22  48_[1(1.06e-24)]_204
+sequence184                      2.72e-22  48_[1(1.06e-24)]_207
+sequence185                      8.72e-15  48_[1(3.41e-17)]_207
+sequence186                      2.72e-22  48_[1(1.06e-24)]_97_[1(8.95e-05)]_\
+    69
+sequence187                      5.26e-09  48_[1(2.02e-11)]_24_[1(6.78e-05)]_\
+    86_[1(6.57e-05)]_20
+sequence188                      7.77e-15  48_[1(3.04e-17)]_207
+sequence189                      7.58e-16  48_[1(2.93e-18)]_210
+sequence190                      1.19e-12  48_[1(4.67e-15)]_205
+sequence191                      1.61e-15  48_[1(6.32e-18)]_205
+sequence192                      3.22e-12  48_[1(1.26e-14)]_207
+sequence193                      3.74e-17  48_[1(1.46e-19)]_207
+sequence194                      6.88e-20  48_[1(2.72e-22)]_94_[1(9.80e-05)]_\
+    69
+sequence195                      6.96e-20  48_[1(2.72e-22)]_97_[1(5.45e-05)]_\
+    69
+sequence196                      7.41e-16  48_[1(2.93e-18)]_145_[1(8.68e-05)]_\
+    18
+sequence197                      1.26e-16  48_[1(4.88e-19)]_97_[1(8.42e-05)]_\
+    71
+sequence198                      2.72e-22  48_[1(1.06e-24)]_207
+sequence199                      2.72e-22  48_[1(1.06e-24)]_97_[1(5.11e-05)]_\
+    69
+sequence200                      2.72e-22  48_[1(1.06e-24)]_207
+sequence201                      2.69e-15  48_[1(1.04e-17)]_151_[1(5.11e-05)]_\
+    18
+sequence202                      3.29e-14  48_[1(1.30e-16)]_204
+sequence203                      6.83e-11  48_[1(2.67e-13)]_207
+sequence204                      7.35e-16  48_[1(2.93e-18)]_202
+sequence205                      5.28e-09  48_[1(2.02e-11)]_24_[1(6.78e-05)]_\
+    86_[1(6.57e-05)]_21
+sequence206                      2.69e-22  48_[1(1.06e-24)]_204
+sequence207                      2.72e-22  48_[1(1.06e-24)]_97_[1(8.42e-05)]_\
+    69
+sequence208                      9.79e-15  48_[1(3.82e-17)]_207
+sequence209                      7.58e-16  48_[1(2.93e-18)]_210
+sequence210                      7.44e-16  48_[1(2.93e-18)]_205
+sequence211                      1.62e-15  48_[1(6.32e-18)]_207
+sequence212                      1.87e-14  48_[1(7.52e-17)]_199
+sequence213                      3.74e-17  48_[1(1.46e-19)]_207
+sequence214                      6.68e-15  14_[1(3.04e-17)]_205
+sequence215                      2.72e-22  48_[1(1.06e-24)]_97_[1(8.42e-05)]_\
+    69
+sequence216                      3.47e-18  48_[1(1.36e-20)]_97_[1(5.45e-05)]_\
+    67
+sequence217                      1.74e-14  48_[1(6.73e-17)]_97_[1(8.42e-05)]_\
+    71
+sequence218                      1.19e-12  48_[1(4.67e-15)]_205
+sequence219                      1.61e-15  48_[1(6.32e-18)]_205
+sequence220                      7.32e-16  48_[1(2.93e-18)]_201
+sequence221                      5.68e-03  23_[1(6.78e-05)]_60
+sequence222                      4.94e-12  48_[1(1.94e-14)]_205
+sequence223                      3.45e-18  48_[1(1.36e-20)]_204
+sequence224                      4.11e-18  48_[1(1.64e-20)]_202
+sequence225                      3.43e-09  19_[1(2.02e-11)]_24_[1(6.78e-05)]_\
+    85
+sequence226                      1.16e-11  48_[1(4.55e-14)]_207
+sequence227                      1.88e-14  48_[1(7.52e-17)]_201
+sequence228                      1.62e-15  48_[1(6.32e-18)]_207
+sequence229                      3.74e-17  48_[1(1.46e-19)]_207
+sequence230                      7.71e-15  48_[1(3.04e-17)]_205
+sequence231                      1.31e-20  48_[1(5.12e-23)]_95_[1(9.51e-05)]_\
+    71
+sequence232                      1.93e-14  48_[1(7.52e-17)]_207
+sequence233                      3.11e-09  48_[1(1.19e-11)]_24_[1(6.37e-05)]_\
+    35_[1(8.95e-05)]_10_[1(6.57e-05)]_20
+sequence234                      2.98e-09  48_[1(1.19e-11)]_24_[1(2.59e-05)]_\
+    35_[1(8.95e-05)]_60
+sequence235                      1.93e-14  48_[1(7.52e-17)]_207
+sequence236                      1.14e-01  196
+sequence237                      6.96e-20  48_[1(2.72e-22)]_97_[1(5.45e-05)]_\
+    69
+sequence238                      1.43e-13  48_[1(5.61e-16)]_205
+sequence239                      1.04e-17  48_[1(3.96e-20)]_213
+sequence240                      3.00e-19  48_[1(1.17e-21)]_18_[1(8.42e-05)]_\
+    38_[1(1.31e-05)]_69
+sequence241                      2.72e-22  48_[1(1.06e-24)]_97_[1(7.00e-05)]_\
+    69
+sequence242                      7.77e-15  48_[1(3.04e-17)]_207
+sequence243                      7.77e-15  48_[1(3.04e-17)]_207
+sequence244                      2.72e-22  48_[1(1.06e-24)]_43_[1(6.37e-05)]_\
+    13_[1(4.95e-05)]_69
+sequence245                      3.00e-19  48_[1(1.17e-21)]_18_[1(8.42e-05)]_\
+    38_[1(1.31e-05)]_69
+sequence246                      1.04e-17  48_[1(3.96e-20)]_213
+sequence247                      6.88e-20  48_[1(2.72e-22)]_94_[1(8.93e-06)]_\
+    69
+sequence248                      1.91e-14  48_[1(7.52e-17)]_205
+sequence249                      1.45e-14  14_[1(7.52e-17)]_178
+sequence250                      2.98e-09  48_[1(1.19e-11)]_24_[1(6.37e-05)]_\
+    35_[1(5.28e-05)]_60
+sequence251                      5.26e-09  48_[1(2.02e-11)]_24_[1(6.37e-05)]_\
+    35_[1(8.95e-05)]_10_[1(6.57e-05)]_20
+sequence252                      6.15e-15  48_[1(2.40e-17)]_207
+sequence253                      1.30e-20  48_[1(5.12e-23)]_95_[1(9.51e-05)]_\
+    69
+sequence254                      2.96e-09  48_[1(1.19e-11)]_24_[1(6.37e-05)]_\
+    35_[1(8.95e-05)]_10_[1(6.57e-05)]_7
+sequence255                      1.91e-14  48_[1(7.52e-17)]_205
+sequence256                      1.93e-14  48_[1(7.52e-17)]_207
+sequence257                      3.11e-09  48_[1(1.19e-11)]_100_[1(8.95e-05)]_\
+    10_[1(6.57e-05)]_20
+sequence258                      1.45e-17  48_[1(5.55e-20)]_213
+sequence259                      7.58e-16  48_[1(2.93e-18)]_210
+sequence260                      6.96e-20  48_[1(2.72e-22)]_97_[1(8.42e-05)]_\
+    69
+sequence261                      7.09e-18  48_[1(2.80e-20)]_94_[1(5.45e-05)]_\
+    69
+sequence262                      1.04e-17  48_[1(3.96e-20)]_213
+sequence263                      1.44e-13  48_[1(5.61e-16)]_207
+sequence264                      1.13e-15  48_[1(4.32e-18)]_213
+sequence265                      2.72e-22  48_[1(1.06e-24)]_97_[1(7.00e-05)]_\
+    69
+sequence266                      2.72e-22  48_[1(1.06e-24)]_43_[1(6.37e-05)]_\
+    13_[1(4.95e-05)]_69
+sequence267                      7.77e-15  48_[1(3.04e-17)]_207
+sequence268                      2.70e-22  48_[1(1.06e-24)]_43_[1(6.37e-05)]_\
+    13_[1(4.95e-05)]_67
+sequence269                      2.72e-22  48_[1(1.06e-24)]_97_[1(7.00e-05)]_\
+    69
+sequence270                      1.33e-18  48_[1(5.22e-21)]_97_[1(2.34e-05)]_\
+    67
+sequence271                      2.38e-17  48_[1(9.08e-20)]_213
+sequence272                      1.44e-13  48_[1(5.61e-16)]_207
+sequence273                      6.83e-20  48_[1(2.72e-22)]_94_[1(5.45e-05)]_\
+    67
+sequence274                      2.15e-14  48_[1(8.40e-17)]_207
+sequence275                      6.96e-20  48_[1(2.72e-22)]_97_[1(2.67e-05)]_\
+    69
+sequence276                      7.58e-16  48_[1(2.93e-18)]_210
+sequence277                      3.11e-09  48_[1(1.19e-11)]_24_[1(6.37e-05)]_\
+    35_[1(8.95e-05)]_10_[1(6.57e-05)]_20
+sequence278                      6.15e-15  48_[1(2.40e-17)]_207
+sequence279                      1.93e-14  48_[1(7.52e-17)]_207
+sequence280                      2.35e-09  22_[1(1.19e-11)]_24_[1(6.37e-05)]_\
+    35_[1(8.95e-05)]_33
+sequence281                      3.11e-09  48_[1(1.19e-11)]_24_[1(6.37e-05)]_\
+    35_[1(8.95e-05)]_10_[1(6.57e-05)]_20
+sequence282                      1.31e-20  48_[1(5.12e-23)]_95_[1(6.57e-05)]_\
+    71
+sequence283                      7.58e-16  48_[1(2.93e-18)]_210
+sequence284                      1.13e-15  48_[1(4.32e-18)]_213
+sequence285                      3.00e-19  48_[1(1.17e-21)]_18_[1(8.42e-05)]_\
+    38_[1(1.31e-05)]_69
+sequence286                      3.49e-12  48_[1(1.37e-14)]_205
+sequence287                      7.77e-15  48_[1(3.04e-17)]_207
+sequence288                      2.66e-15  48_[1(1.04e-17)]_207
+sequence289                      2.70e-22  48_[1(1.06e-24)]_205
+sequence290                      7.71e-15  48_[1(3.04e-17)]_205
+sequence291                      7.77e-15  48_[1(3.04e-17)]_207
+sequence292                      5.68e-14  48_[1(2.22e-16)]_207
+sequence293                      2.70e-22  48_[1(1.06e-24)]_205
+sequence294                      7.71e-15  48_[1(3.04e-17)]_205
+sequence295                      6.96e-20  48_[1(2.72e-22)]_97_[1(5.45e-05)]_\
+    69
+sequence296                      2.72e-22  48_[1(1.06e-24)]_18_[1(8.42e-05)]_\
+    38_[1(1.61e-05)]_69
+sequence297                      1.04e-17  48_[1(3.96e-20)]_213
+sequence298                      2.70e-22  48_[1(1.06e-24)]_18_[1(2.50e-05)]_\
+    146
+sequence299                      6.96e-20  48_[1(2.72e-22)]_97_[1(5.45e-05)]_\
+    69
+sequence300                      7.32e-16  48_[1(2.93e-18)]_151_[1(8.68e-05)]_\
+    9
+sequence301                      1.30e-20  48_[1(5.12e-23)]_205
+sequence302                      1.93e-14  48_[1(7.52e-17)]_207
+sequence303                      1.44e-17  48_[1(5.55e-20)]_211
+sequence304                      1.44e-17  48_[1(5.55e-20)]_211
+sequence305                      1.31e-20  48_[1(5.12e-23)]_95_[1(9.51e-05)]_\
+    71
+sequence306                      2.98e-09  48_[1(1.19e-11)]_24_[1(6.37e-05)]_\
+    35_[1(8.95e-05)]_60
+sequence307                      1.77e-14  48_[1(7.52e-17)]_186
+sequence308                      7.58e-16  48_[1(2.93e-18)]_210
+sequence309                      6.96e-20  48_[1(2.72e-22)]_97_[1(5.45e-05)]_\
+    69
+sequence310                      1.44e-13  48_[1(5.61e-16)]_207
+sequence311                      1.06e-16  48_[1(4.22e-19)]_203
+sequence312                      7.71e-15  48_[1(3.04e-17)]_205
+sequence313                      2.72e-22  48_[1(1.06e-24)]_97_[1(7.00e-05)]_\
+    69
+sequence314                      5.68e-14  48_[1(2.22e-16)]_207
+sequence315                      2.72e-22  48_[1(1.06e-24)]_207
+sequence316                      5.23e-14  48_[1(2.22e-16)]_187
+sequence317                      2.72e-22  48_[1(1.06e-24)]_97_[1(8.95e-05)]_\
+    69
+sequence318                      2.72e-22  48_[1(1.06e-24)]_18_[1(8.42e-05)]_\
+    38_[1(1.61e-05)]_69
+sequence319                      1.04e-17  48_[1(3.96e-20)]_213
+sequence320                      6.96e-20  48_[1(2.72e-22)]_97_[1(5.45e-05)]_\
+    69
+sequence321                      6.88e-20  48_[1(2.72e-22)]_94_[1(8.93e-06)]_\
+    69
+sequence322                      1.91e-14  48_[1(7.52e-17)]_205
+sequence323                      2.98e-09  48_[1(1.19e-11)]_24_[1(6.37e-05)]_\
+    35_[1(8.95e-05)]_60
+sequence324                      2.36e-17  48_[1(9.08e-20)]_211
+--------------------------------------------------------------------------------
+
+********************************************************************************
+
+
+********************************************************************************
+Stopped because requested number of motifs (1) found.
+********************************************************************************
+
+CPU: ilank
+
+********************************************************************************
